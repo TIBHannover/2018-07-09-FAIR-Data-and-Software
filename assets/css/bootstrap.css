@@ -4960,9 +4960,10 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: inherit;
   background-color: #eee;
 }
@@ -4971,7 +4972,7 @@ a.badge:focus {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 21px;
   font-weight: 200;
 }
@@ -4982,15 +4983,14 @@ a.badge:focus {
 .container-fluid .jumbotron {
   padding-right: 15px;
   padding-left: 15px;
-  border-radius: 6px;
 }
 .jumbotron .container {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
