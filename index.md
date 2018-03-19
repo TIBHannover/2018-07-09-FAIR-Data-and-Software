@@ -75,13 +75,8 @@ and our administrator may contact you if we need any extra information.</h4>
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
+
+{% include who.html %}
 
 {% comment %}
   LOCATION
@@ -133,6 +128,9 @@ and our administrator may contact you if we need any extra information.</h4>
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+</p>  
+<p id="note">
+  <strong>Please note:</strong> This workshop is <strong>not an introduction</strong> into the basics of scientific computing and data science. If you are interested in that, please consider applying for one of the actual <a href="https://software-carpentry.org/workshops/">Software</a> and <a href="http://www.datacarpentry.org/workshops-upcoming/">Data</a> Carpentry workshops, or <a href="https://software-carpentry.org/lessons/">work</a> through their <a href="http://www.datacarpentry.org/lessons/">material</a> in a self-paced manner.
 </p>
 
 {% comment %}
