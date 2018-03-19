@@ -157,6 +157,13 @@ and our administrator may contact you if we need any extra information.</h4>
   attempt to provide them.
 </p>
 
+<p id="recordings">>
+  <strong>Recordings:</strong>
+  We will record some or all of the lectures during this workshop and publish
+  them on the <a href="https://av.tib.eu/">TIB AV-Portal</a>. Discussion
+  sessions will not be recorded.
+</p>
+
 {% comment %}
   CONTACT EMAIL ADDRESS
 
