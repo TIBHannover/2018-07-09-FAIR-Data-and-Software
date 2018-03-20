@@ -213,7 +213,10 @@ benefits, and its (differing and/or shared) implications for <em>proper research
 data/software management/development<em> together with the learners. We'll 
 follow-up that theory-leaning examination with discussions and  live-coding 
 sessions, using (Software & Data) Carpentry lesson materials to illustrate and 
-practice a principle's implementation.
+practice a principle's implementation in the
+<a href="https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics">
+STEM</a> context ("
+<a href="https://de.wikipedia.org/wiki/MINT-F%C3%A4cher">MINT-Fächer</a>").
 
 {% include schedule.html %}
 
