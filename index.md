@@ -125,10 +125,12 @@ and our administrator may contact you if we need any extra information.</h4>
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>  
 <p id="note">
-  <strong>Please note:</strong> This workshop is <strong>not an 
-  introduction</strong> into the basics of scientific computing and data 
-  science. If you are interested in that, please consider applying for one 
-  of the actual <a 
+  <strong>Please note: This workshop focuses on the application</strong>
+  of the FAIR Principles on scientific data and software. Because it covers
+  a variety of examples, it does require a basic
+  knowledge of the tools listed in <a href="#schedule">the schedule</a>.
+  If you are interested in learning these basics, please consider applying for
+  one of the actual <a 
   href="https://software-carpentry.org/workshops/">Software</a> and <a 
   href="http://www.datacarpentry.org/workshops-upcoming/">Data</a> 
   Carpentry workshops, or <a 
