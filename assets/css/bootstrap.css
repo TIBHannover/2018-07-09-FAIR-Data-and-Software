@@ -260,6 +260,17 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+@font-face {
+    font-family: 'Generika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Generika-Regular_web.eot');
+    src: url('../fonts/Generika-Regular_web.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Generika-Regular_web.woff') format('woff'),
+         url('../fonts/Generika-Regular_web.ttf') format('truetype');
+}
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 
@@ -1184,10 +1195,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  color: rgba(240, 50, 5);
+  font-family: 'Generika';
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
 }
 h1 small,
 h2 small,
