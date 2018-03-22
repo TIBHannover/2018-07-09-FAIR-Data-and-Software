@@ -12,19 +12,9 @@
       </button>
 
       {% comment %} Select what logo to display. {% endcomment %}
-      {% if page.carpentry == "swc" %}
-      <a href="{{ site.swc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
+      <a href="https://tib.eu/" class="pull-left">
+        <img class="navbar-logo" src="assets/TIB_Logo.png" alt="TIB logo" />
       </a>
-      {% elsif page.carpentry == "dc" %}
-      <a href="{{ site.dc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/dc-icon-black.svg" alt="Data Carpentry logo" />
-      </a>
-      {% elsif page.carpentry == "lc" %}
-      <a href="{{ site.lc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/lc-icon-black.png" alt="Library Carpentry logo" />
-      </a>
-      {% endif %}
 
       {% comment %} Always show link to home page. {% endcomment %}
       <a class="navbar-brand" href="{{ page.root }}{% link index.md %}">Home</a>
