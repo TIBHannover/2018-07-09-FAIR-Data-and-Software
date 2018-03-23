@@ -208,11 +208,11 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endif %}
 
 
-We will focus on one topic / principle per day, examining its reasoning,
-benefits, and its (differing and/or shared) implications for <em>proper research 
+We will focus on one topic / principle per day, introducing its reasoning,
+benefits, and (differing and/or shared) implications for <em>proper research 
 data/software management/development<em> together with the learners. We'll 
-follow-up that theory-leaning examination with discussions and  live-coding 
-sessions, using (Software & Data) Carpentry lesson materials to illustrate and 
+follow-up the theory-leaning introductions in the mornings with discussions and live-coding 
+sessions, using (Software & Data) Carpentry materials to illustrate and 
 practice a principle's implementation in the
 <a href="https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics">
 STEM</a> context ("
