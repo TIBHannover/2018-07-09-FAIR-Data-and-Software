@@ -215,8 +215,10 @@ follow-up the theory-leaning introductions in the mornings with discussions and 
 sessions, using (Software & Data) Carpentry materials to illustrate and 
 practice a principle's implementation in the
 <a href="https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics">
-STEM</a> context ("
+STEM</a> disciplines ("
 <a href="https://de.wikipedia.org/wiki/MINT-F%C3%A4cher">MINT-Fächer</a>").
+Regardless of discipline, learners are encouraged to bring questions about
+their own data and source code, we can answer those during the week.
 
 {% include schedule.html %}
 
