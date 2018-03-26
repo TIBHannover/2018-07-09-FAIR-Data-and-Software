@@ -1,31 +1,29 @@
 {% comment %}
   Advertising box at the top of a workshop website home page.
 {% endcomment %}
+<img src="https://events.tib.eu/fileadmin/templates/fair-data-software/tib_events_fair-data-software_1150.jpg" alt="{{page.title}} ({{page.subtitle}} at the {{page.venue}} on the {{page.humandate}}">
 <div class="jumbotron">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h2>{{page.venue}}</h2>
       <div class="row">
+        {% if page.instructor %}
         <div class="col-md-6">
-          <p>{{page.humandate}}</p>
-          <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
-        </div>
-        <div class="col-md-6">
+          <h2>Instructors</h2>
           <p>
-          <strong>Instructors:</strong>
-          {% if page.instructor %}
           {{page.instructor | join: ', ' %}}
           {% else %}
           to be announced.
-          {% endif %}
-          </p>
-          {% if page.helper %}
-          <p>
-          <strong>Helpers:</strong>
-          {{page.helper | join: ', ' %}}
           </p>
           {% endif %}
         </div>
+        {% if page.helper %}
+        <div class="col-md-6">
+          <h2>Helpers</h2>
+          <p>
+          {{page.helper | join: ', ' %}}
+          </p>
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
