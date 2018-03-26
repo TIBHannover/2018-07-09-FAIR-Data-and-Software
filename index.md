@@ -118,19 +118,19 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
-</p>  
+</p>
 <p id="note">
   <strong>Please note: This workshop focuses on the application</strong>
   of the FAIR Principles on scientific data and software. Because it covers
   a variety of examples, it does require a basic
   knowledge of the tools listed in <a href="#schedule">the schedule</a>.
   If you are interested in learning these basics, please consider applying for
-  one of the actual <a 
-  href="https://software-carpentry.org/workshops/">Software</a> and <a 
-  href="http://www.datacarpentry.org/workshops-upcoming/">Data</a> 
-  Carpentry workshops, or <a 
-  href="https://software-carpentry.org/lessons/">work</a> through their<a 
-  href="http://www.datacarpentry.org/lessons/">material</a> in a 
+  one of the actual <a
+  href="https://software-carpentry.org/workshops/">Software</a> and <a
+  href="http://www.datacarpentry.org/workshops-upcoming/">Data</a>
+  Carpentry workshops, or <a
+  href="https://software-carpentry.org/lessons/">work</a> through their<a
+  href="http://www.datacarpentry.org/lessons/">material</a> in a
   self-paced manner.
 </p>
 
@@ -196,7 +196,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -628,9 +628,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
