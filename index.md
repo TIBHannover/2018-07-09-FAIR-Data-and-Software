@@ -158,6 +158,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   attempt to provide them.
 </p>
 
+<p id="recordings">>
+  <strong>Recordings:</strong>
+  We will record some or all of the lectures during this workshop and publish
+  them on the <a href="https://av.tib.eu/">TIB AV-Portal</a>. Discussion
+  sessions will not be recorded.
+</p>
+
 {% comment %}
   CONTACT EMAIL ADDRESS
 
@@ -185,13 +192,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
-{% comment %}
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
-{% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
@@ -209,13 +209,19 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+We will focus on one topic / principle per day, introducing its reasoning,
+benefits, and (differing and/or shared) implications for <em>proper research 
+data/software management/development<em> together with the learners. We'll 
+follow-up the theory-leaning introductions in the mornings with discussions and live-coding 
+sessions, using (Software & Data) Carpentry materials to illustrate and 
+practice a principle's implementation in the
+<a href="https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics">
+STEM</a> disciplines ("
+<a href="https://de.wikipedia.org/wiki/MINT-F%C3%A4cher">MINT-Fächer</a>").
+Regardless of discipline, learners are encouraged to bring questions about
+their own data and source code, we can answer those during the week.
+
+{% include schedule.html %}
 
 {% comment %}
   Collaborative Notes
