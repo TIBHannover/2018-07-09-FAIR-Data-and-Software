@@ -59,14 +59,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% include intro.html %}
 
-{% comment %}
-  AUDIENCE
 
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
-{% endcomment %}
-
-{% include who.html %}
+### Who?
 
 {% comment %}
   LOCATION
