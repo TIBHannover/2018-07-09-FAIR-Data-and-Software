@@ -83,22 +83,16 @@ and [add the event to your Google Calendar
 
   Modify the block below if there are any special requirements.
 {% endcomment %}
-<p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
+
+### Requirements
+
+Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
+  <a href="#setup">below</a>). They are also required to abide by the Carpentries'
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
-</p>
-<p id="note">
-  <strong>Please note: This workshop focuses on the application</strong>
+
+**Please note: This workshop focuses on the application**
   of the FAIR Principles on scientific data and software. Because it covers
   a variety of examples, it does require a basic
   knowledge of the tools listed in <a href="#schedule">the schedule</a>.
@@ -110,7 +104,6 @@ and [add the event to your Google Calendar
   href="https://software-carpentry.org/lessons/">work</a> through their<a
   href="http://www.datacarpentry.org/lessons/">material</a> in a
   self-paced manner.
-</p>
 
 {% comment %}
   ACCESSIBILITY
@@ -136,41 +129,19 @@ and [add the event to your Google Calendar
   attempt to provide them.
 </p>
 
-<p id="recordings">>
-  <strong>Recordings:</strong>
-  We will record some or all of the lectures during this workshop and publish
-  them on the <a href="https://av.tib.eu/">TIB AV-Portal</a>. Discussion
-  sessions will not be recorded.
-</p>
+### Recordings
 
-{% comment %}
-  CONTACT EMAIL ADDRESS
+We will record some or all of the lectures during this workshop and publish
+them on the [TIB AV-Portal](https://av.tib.eu/). Discussion
+sessions will not be recorded.
 
-  Display the contact email address set in the configuration file.
-{% endcomment %}
-<p id="contact">
-  <strong>Contact</strong>:
-  Please email
-  {% if page.email %}
-    {% for email in page.email %}
-      {% if forloop.last and page.email.size > 1 %}
-        or
-      {% else %}
-        {% unless forloop.first %}
-        ,
-        {% endunless %}
-      {% endif %}
-      <a href='mailto:{{email}}'>{{email}}</a>
-    {% endfor %}
-  {% else %}
-    to-be-announced
-  {% endif %}
-  for more information.
-</p>
+### Contact
 
-<hr/>
+  Please email [{{page.email}}](mailto:{{page.email}}) for more information.
 
-<h2 id="schedule">Schedule</h2>
+---
+
+## Schedule
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
