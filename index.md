@@ -18,8 +18,6 @@ collaborative_notes:             # optional: URL for the workshop collaborative 
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
 ---
 
-
-
 ### General Information
 
 This workshop aims to train young scientists in implementing the FAIR principles for research data & software management & development. We want to help you identify similarities and differences between these two scientific objects and apply respectively appropriate good practices in preparing, publishing and archiving your work.
@@ -33,7 +31,7 @@ This workshop aims to train young scientists in implementing the FAIR principles
 
 ### Who?
 
-This workshop is aimed at young scientists who wish to excel at
+Young scientists who wish to excel at
 implementing the FAIR principles for research data and scientific
 software. **You need to have some previous knowledge of the tools
 that will be presented at the workshop.**
@@ -54,17 +52,15 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
 
-**Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the "classical" [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their[material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
+**Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the (non-experimental) [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their [material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
 
 
 ### Accessibility
 
 We try to make this workshop as accessible to everybody as
-possible. If we can help make learning easier for you in any way
-(lactation facilities, print-outs of lesson material, etc.) please
+possible. If we can help make learning easier for you in any way, please
 [get in touch](#contact) and we will attempt to provide.
 We will prepare the venue to be **wheelchair-accessible** upon request.
-Please [contact](#contact) us.
 
 
 ### Recordings
@@ -76,7 +72,7 @@ sessions will not be recorded.
 
 ### Contact
 
-Please email [{{page.email}}](mailto:{{page.email}}) for more information.
+If you have any questions, please don't hesitate to email us: [{{page.email}}](mailto:{{page.email}}).
 
 
 ### Registration Requests: [events.tib.eu/fair-data-software](https://events.tib.eu/fair-data-software/registration-request/)
@@ -127,7 +123,7 @@ document</a> for chatting, taking notes, and sharing URLs and bits of code.
 
 
 
-<hr/>
+---
 
 {% comment %}
   SETUP
