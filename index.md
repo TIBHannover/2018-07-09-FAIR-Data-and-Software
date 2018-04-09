@@ -52,24 +52,9 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 ### Requirements
 
-Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by the Carpentries'
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
 
-**Please note: This workshop focuses on the application**
-  of the FAIR Principles on scientific data and software. Because it covers
-  a variety of examples, it does require a basic
-  knowledge of the tools listed in <a href="#schedule">the schedule</a>.
-  If you are interested in learning these basics, please consider applying for
-  one of the actual <a
-  href="https://software-carpentry.org/workshops/">Software</a> and <a
-  href="http://www.datacarpentry.org/workshops-upcoming/">Data</a>
-  Carpentry workshops, or <a
-  href="https://software-carpentry.org/lessons/">work</a> through their<a
-  href="http://www.datacarpentry.org/lessons/">material</a> in a
-  self-paced manner.
+**Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the "classical" [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their[material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
 
 
 ### Accessibility
@@ -116,14 +101,14 @@ Please email [{{page.email}}](mailto:{{page.email}}) for more information.
 
 
 We will focus on one topic / principle per day, introducing its reasoning,
-benefits, and (differing and/or shared) implications for <em>proper research 
-data/software management/development<em> together with the learners. We'll 
-follow-up the theory-leaning introductions in the mornings with discussions and live-coding 
-sessions, using (Software & Data) Carpentry materials to illustrate and 
+benefits, and (differing and/or shared) implications for *proper research
+data/software management/development* together with the learners. We'll
+follow-up the theory-leaning introductions in the mornings with discussions and
+live-coding
+sessions, using (Software & Data) Carpentry materials to illustrate and
 practice a principle's implementation in the
-<a href="https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics">
-STEM</a> disciplines ("
-<a href="https://de.wikipedia.org/wiki/MINT-F%C3%A4cher">MINT-Fächer</a>").
+[STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics)
+disciplines ("[MINT-Fächer](https://de.wikipedia.org/wiki/MINT-F%C3%A4cher)").
 Regardless of discipline, learners are encouraged to bring questions about
 their own data and source code, we can answer those during the week.
 
@@ -138,32 +123,9 @@ document</a> for chatting, taking notes, and sharing URLs and bits of code.
 
 ---
 
-{% comment %}
-  SYLLABUS
+#### Syllabus
 
-  Show what topics will be covered.
 
-  1. If your workshop is R rather than Python, remove the comment
-     around that section and put a comment around the Python section.
-  2. Some workshops will delete SQL.
-  3. Please make sure the list of topics is synchronized with what you
-     intend to teach.
-  4. You may need to move the div's with class="col-md-6" around inside
-     the div's with class="row" to balance the multi-column layout.
-
-  This is one of the places where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
 
 <hr/>
 
