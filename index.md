@@ -43,11 +43,11 @@ that will be presented at the workshop.**
 
 Please see [events.tib.eu/fair-data-software
 ](https://events.tib.eu/fair-data-software/general-information/venue/)
-for all the details, including public transport directions,
+for all the details, including public transport directions and
 accommodation suggestions. You can also find us on [OpenStreetMap
 ](https://www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16)
-and [add the event to your Google Calendar
-](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR Data and Software&dates={{ page.startdate | replace: "-", "" }}/{{ page.enddate | replace: "-", "" | plus: 0}}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details=Carpentries-based workshop at the {{ page.venue }}").
+and [add the event to your Google
+Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR Data and Software&dates={{ page.startdate | replace: "-", "" }}/{{ page.enddate | replace: "-", "" | plus: 0}}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details=Carpentries-based workshop at the {{ page.venue }}").
 
 
 ### Requirements
