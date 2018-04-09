@@ -15,7 +15,6 @@ enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-
 instructor: ["Katrin Leinweber", "Angelina Kraft", "FINDMORE"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
 ---
 
@@ -30,23 +29,6 @@ email: ["carpentries@tib.eu"]    # boxed, comma-separated list
   And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 <h2 id="general">General Information</h2>
 
@@ -138,6 +120,9 @@ sessions will not be recorded.
 ### Contact
 
 Please email [{{page.email}}](mailto:{{page.email}}) for more information.
+
+
+### Registration Requests: [events.tib.eu/fair-data-software](https://events.tib.eu/fair-data-software/registration-request/)
 
 ---
 
