@@ -62,7 +62,7 @@ Participants must bring a laptop with a Mac, Linux, or Windows operating system 
 ### Accessibility
 
 We try to make this workshop as accessible to everybody as
-possible. If we can help make learning easier for you in any way, please
+possible. If we can help you in any way, please
 [get in touch](#contact) and we will attempt to provide.
 We will prepare the venue to be **wheelchair-accessible** upon request.
 
@@ -71,7 +71,7 @@ We will prepare the venue to be **wheelchair-accessible** upon request.
 
 We will record some or all of the lectures during this workshop and publish
 them on the [TIB AV-Portal](https://av.tib.eu/). Discussion
-sessions will not be recorded.
+sessions will not be recorded. 
 
 
 ### Contact
