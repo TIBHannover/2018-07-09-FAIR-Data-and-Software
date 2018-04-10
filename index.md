@@ -55,6 +55,12 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 Thanks to a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html) there are **none** directly for attending the workshop. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves.
 
+
+### Food
+
+We offer fruits, biscuits, tea, coffee, mineral water, as well as both a vegan and a non-vegan lunch meal on each of the five days.
+
+
 ### Requirements
 
 Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
