@@ -58,7 +58,7 @@ Thanks to a [grant by the German Federal Ministry of Education and Research (BMB
 
 ### Food
 
-We offer fruits, biscuits, tea, coffee, mineral water, as well as both a vegan and a non-vegan lunch meal on each of the five days.
+We provide **fruits, biscuits, tea, coffee, mineral water**, as well as both a **vegan and a non-vegan lunch** meal on each of the five days free of charge. Participants will need to obtain breakfasts and dinners outside of TIB. Many cuisine options from bakeries and to restaurants are located within walking distance.
 
 
 ### Requirements
