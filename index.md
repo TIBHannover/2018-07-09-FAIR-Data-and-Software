@@ -53,17 +53,17 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 ### Costs
 
-Participation is free of charge. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves. This workshop is part of an ideas competition supported by the Jülich Research Centre, and part a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
+**Participation is free of charge**. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves. This workshop is part of an ideas competition supported by the [Jülich Research Centre](http://www.fz-juelich.de/portal/EN/Home/), and part of a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
 
 
 ### Food
 
-We provide **fruits, biscuits, tea, coffee, mineral water**, as well as both a **vegan and a non-vegan lunch** meal on each of the five days free of charge. Participants will need to obtain breakfasts and dinners outside of TIB. Many cuisine options from bakeries and to restaurants are located within walking distance.
+At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water), as well as both a vegan and a non-vegan lunch on each of the five days will be provided (free of charge). Participants will need to obtain breakfasts and dinners outside of TIB. Many cuisine options from bakeries and to restaurants are located within walking distance.
 
 
 ### Requirements
 
-Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
+**Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.** They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
 
 **Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the (non-experimental) [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their [material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
 
