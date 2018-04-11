@@ -20,7 +20,7 @@ collaborative_notes: https://hackmd.io/Z4LC40umSGKs0ycv3PC2Ow    # https://githu
 
 ### General Information
 
-This workshop aims to train young scientists in implementing the FAIR principles for research data & software management & development. We want to help you identify similarities and differences between these two scientific objects and apply respectively appropriate good practices in preparing, publishing and archiving your work.
+*This workshop aims to train young scientists in implementing the FAIR principles for research data & software management & development.* We want to help you identify similarities and differences between these two scientific objects and apply respectively appropriate good practices in preparing, publishing and archiving your work.
 We will focus on one topic / principle per day, introducing its reasoning, benefits, and (differing and/or shared) implications for *proper research data/software management/development* together with the learners. We'll follow-up the theory-leaning introductions in the mornings with discussions and
 live-coding sessions, using (Software & Data) Carpentry materials to illustrate and practice a principle's implementation in the [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics) disciplines ("[MINT-Fächer](https://de.wikipedia.org/wiki/MINT-F%C3%A4cher)").
 Regardless of discipline, learners are encouraged to bring questions about their own data and source code, we can answer those during the week. 
