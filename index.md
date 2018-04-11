@@ -32,7 +32,7 @@ Regardless of discipline, learners are encouraged to bring questions about their
 </p>
 
 
-### Who?
+### For whom?
 
 Young scientists who wish to excel at
 implementing the FAIR principles for research data and scientific
