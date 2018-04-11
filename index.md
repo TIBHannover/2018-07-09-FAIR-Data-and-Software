@@ -53,7 +53,7 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 ### Costs
 
-Thanks to a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html) there are **none** directly for attending the workshop. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves.
+Participation is free of charge. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves. This workshop is part of an ideas competition supported by the Jülich Research Centre, and part a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
 
 
 ### Food
