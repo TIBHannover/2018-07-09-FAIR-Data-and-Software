@@ -125,6 +125,12 @@ their own data and source code, we can answer those during the week.
 {% include schedule.html %}
 
 
+### Set-up help
+
+We will offer a virtual set-up help on the Thursday and Friday before the workshop
+(5. & 6. of July) between 13 and 14 o'clock in the afternoons. In order to ease
+de-bugging, please follow the [set-up](#setup) instructions
+
 ### Collaborative Notes
 
 We will use this <a href="{{page.collaborative_notes}}">collaborative
@@ -150,26 +156,15 @@ document</a> for chatting, taking notes, and sharing URLs and bits of code.
   'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
 
-<p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
+## Setup
+
+To participate in this workshop, you will need access to the software described 
+below. In addition, you will need an up-to-date web browser.
+
+We maintain a list of common issues that occur during installation as a reference 
+for instructors that may be useful on the [Configuration Problems and Solutions 
+wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions).
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
