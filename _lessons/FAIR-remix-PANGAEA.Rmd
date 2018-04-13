@@ -17,7 +17,7 @@ Please skim over both pages.
 ---
 
 - Noticed the DOIs? Both datasets are **F**indable :-)
-- Even more so, because both are annotaded with geographic and event info.
+- Even more so, because both are annotated with geographic and event info.
 - How are they licensed? Under what conditions are we allowed to use the data?
 - Noticed the `Download` links over `https`? **A**ccessible data :-)
 
@@ -31,7 +31,7 @@ What should be our first move towards our goal of analysing the datasets?
 Of course, we need to download the datasets somehow. We could:
 
 - `Download dataset as tab-delimited text` manually, saving the files
-- write our own little downloade function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow 
+- write our own little download function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow 
 
 Which one do you prefer?
 
@@ -63,7 +63,7 @@ str(DomeC)
 
 Both lists contain some metadata and the actual `data` as a `tbl_df`. What is that? [Hint: It's from the tidyverse](https://tibble.tidyverse.org/).
 
-To verify that both veriables `Age` and `d18O H2O` are really labelled in exactly the same way, we extract the variable names of both tibbles and throw out others that exist only in one tibble.
+To verify that both variables `Age` and `d18O H2O` are really labelled in exactly the same way, we extract the variable names of both tibbles and throw out others that exist only in one tibble.
 
 
 ```{r vars}
@@ -72,7 +72,7 @@ NGRIP <- NGRIP[[1]]$data
 intersect(names(DomeC), names(NGRIP))
 ```
 
-This is great! We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we use the "backtick" character (\`) around both.
+This is great! We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we use the "back tick" character (\`) around both.
 
 ```{r plot}
 library(ggplot2)
@@ -84,7 +84,7 @@ ggplot(data = DomeC,
   scale_x_reverse() # because Age means the past
 ```
 
-Incidently, the `Dome C` core (black, east Antarctica) captured higher `d18O` concentrations, than `NGRIP`  (*Green*land).
+Incidentally, the `Dome C` core (black, east Antarctica) captured higher `d18O` concentrations, than `NGRIP` (*Green*land).
 
 Integrating the two datasets with this little code was possible, only because both variables were named exactly the same and thus easily machine-readable. If they hadn't been, we would have needed to:
 
@@ -107,6 +107,6 @@ ggplot(data = DomeC,
              color = "dark green")
 ```
 
-So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few  qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the CC-BY-3.0 license meant mean good **r**eusability.
+So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the CC-BY-3.0 license meant mean good **r**eusability.
 
 This is the power of FAIR combined with nicely packaged-up R code: Reducing the burden of finding, downloading and cleaning up datasets.
