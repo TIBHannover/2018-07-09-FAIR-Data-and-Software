@@ -31,7 +31,7 @@ What should be our first move towards our goal of analysing the datasets?
 Of course, we need to download the datasets somehow. We could:
 
 - `Download dataset as tab-delimited text` manually, saving the files
-- write our own little download function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow 
+- write our own little download function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow
 
 Which one do you prefer?
 
@@ -76,10 +76,10 @@ This is great! We can now plot both datasets' `d18O H2O` values against the same
 
 ```{r plot}
 library(ggplot2)
-ggplot(data = DomeC, 
-       mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`)) + 
+ggplot(data = DomeC,
+       mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`)) +
   geom_point() + # inherits data & mapping from above
-  geom_point(NGRIP, # overwrites above data, but inherits x & y
+  geom_point(data = NGRIP, # overwrites above data, but inherits x & y
              color = "dark green") +
   scale_x_reverse() # because Age means the past
 ```
@@ -88,18 +88,18 @@ Incidentally, the `Dome C` core (black, east Antarctica) captured higher `d18O` 
 
 Integrating the two datasets with this little code was possible, only because both variables were named exactly the same and thus easily machine-readable. If they hadn't been, we would have needed to:
 
-a) either rename one between downloading and plotting, or 
+a) either rename one between downloading and plotting, or
 
-```{r str_diff eval=FALSE}
+```{r str_diff, eval=FALSE}
 names(NGRIP$`some other Age variable's name`) <- names(DomeC$`Age [ka BP]`)
 names(NGRIP$`some other d18O variable's name`) <- names(DomeC$`d18O H2O [per mil SMOW]`)
 ```
 
 b) specify in `geom_point` which second `y` should be plotted.
 
-```{r plot2 eval=FALSE}
-ggplot(data = DomeC, 
-       mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`)) + 
+```{r plot2, eval=FALSE}
+ggplot(data = DomeC,
+       mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`)) +
   geom_point() +
   geom_point(data = NGRIP,
              mapping = aes(x = `some other Age variable's name`,
