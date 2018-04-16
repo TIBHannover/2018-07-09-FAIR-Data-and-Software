@@ -646,3 +646,4 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
   </ol>
 </div>
 {% endcomment %}
+[![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
