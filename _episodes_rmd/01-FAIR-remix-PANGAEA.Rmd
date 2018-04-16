@@ -4,7 +4,9 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+opts_chunk$set(fig.path = "../fig/01-")
 ```
 
 We want to analyse ice core data from two different regions of the world (and projects):

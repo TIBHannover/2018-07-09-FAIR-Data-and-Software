@@ -130,7 +130,7 @@ ggplot(data = DomeC,
 ## Warning: Removed 16 rows containing missing values (geom_point).
 ```
 
-![plot of chunk plot](figure/plot-1.png)
+![plot of chunk plot](../fig/01-plot-1.png)
 
 Incidentally, the `Dome C` core (black, east Antarctica) captured higher `d18O` concentrations, than `NGRIP` (*Green*land).
 
