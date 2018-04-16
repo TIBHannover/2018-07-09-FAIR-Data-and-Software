@@ -36,24 +36,38 @@ Please skim over both pages.
 
 Now, will the data also be **i**nteroperable and **r**eusable on the technical level? The list of parameters in both cases show that `Age` and `d18O H2O` were measured. Sounds good, but will it blend???
 
----
+> ## Challenge: What should be our first move towards our goal of analysing the datasets?
+>
+> Of course, we need to download the datasets somehow. We could:
+>
+> - `Download dataset as tab-delimited text` manually, saving the files
+> - write our own little download function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow
+>
+> Which one do you prefer?
+>
+> > ## Solution
+> >
+> > Neither ;-) There is a third option: looking for an R package
+> > related to the data repository. Search
+> > [CRAN.R-project.org/web/packages/available_packages_by_name.html
+> > ](https://cran.r-project.org/web/packages/available_packages_by_name.html)
+> >  or [https://ropensci.org/packages/](ROpenSci.org/packages) for
+> > "PANGAEA".
+> {: .solution}
+{: .challenge}
 
-What should be our first move towards our goal of analysing the datasets?
 
-Of course, we need to download the datasets somehow. We could:
-
-- `Download dataset as tab-delimited text` manually, saving the files
-- write our own little download function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow
-
-Which one do you prefer?
-
-Wrong ;-) There is a third option: looking for an R package related to the data repository. Search https://cran.r-project.org/web/packages/available_packages_by_name.html or https://ropensci.org/packages/ for "PANGAEA".
-
-In case of a Python module, we might have searched [SciPy.org](https://www.scipy.org/), [PyPi.org](https://pypi.python.org/pypi), [anaconda.org](https://anaconda.org/), but in this case would not have found one.
-
----
-
-Before installing your search result, ROpenSci's `pangear`, let's check that it will actually be useful for our first move. Which functions from https://ropensci.github.io/pangaear/reference/index.html sound like what we need?
+> ## Challenge: Before installing your search result, check whether it seems useful.
+>
+> How would you go about this in case of an R-package or Python module?
+>
+> > ## Solution:
+> >
+> > [ROpenSci.github.io/pangaear/reference
+> > ](https://ropensci.github.io/pangaear/reference/index.html) shows
+> > an overview of all functions. `pg_data()` sounds like what we need.
+> {: .solution}
+{: .challenge}
 
 
 ```{r download, warning=FALSE, message=FALSE}
