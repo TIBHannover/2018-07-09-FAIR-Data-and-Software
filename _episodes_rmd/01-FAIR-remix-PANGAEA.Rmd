@@ -1,6 +1,16 @@
 ---
+source: Rmd
 title: "3 - I - Remixing datasets based on uniform variable names"
 output: html_document
+teaching: 30
+exercises: 2
+questions:
+- "Which properties help us merge datasets?"
+objectives:
+- "Finding both data and software for re-use."
+- "Visualising data from two different sets."
+keypoints:
+- "The FAIR-er a dataset, the easier its re-use in answering a new research questions"
 ---
 
 ```{r setup, include=FALSE}
