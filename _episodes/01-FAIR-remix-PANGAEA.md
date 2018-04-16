@@ -128,9 +128,9 @@ To verify that both variables `Age` and `d18O H2O` are really labelled in exactl
 
 
 ```r
-DomeC <- DomeC[[1]]$data
 NGRIP <- NGRIP[[1]]$data
-intersect(names(DomeC), names(NGRIP))
+DomeC <- DomeC[[1]]$data
+intersect(names(NGRIP), names(DomeC))
 ```
 
 ```
@@ -142,11 +142,12 @@ This is great! We can now plot both datasets' `d18O H2O` values against the same
 
 ```r
 library(ggplot2)
-ggplot(data = DomeC,
-       mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`)) +
+ggplot(data = NGRIP,
+       mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`),
+       color = "dark green") +
   geom_point() + # inherits data & mapping from above
-  geom_point(data = NGRIP, # overwrites above data, but inherits x & y
-             color = "dark green") +
+  geom_point(data = DomeC # overwrites above data, but inherits x & y
+             ) +
   scale_x_reverse() # because Age means the past
 ```
 
