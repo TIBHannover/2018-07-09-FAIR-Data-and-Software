@@ -137,7 +137,9 @@ intersect(names(NGRIP), names(DomeC))
 ## [1] "Age [ka BP]"             "d18O H2O [per mil SMOW]"
 ```
 
-This is great! We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we use the "back tick" character (\`) around both.
+This is great, because we get only exactly two variable names. If there had been even the slightest difference in the name, unit, or a spelling mistake, we would have seen less output, because the `names` wouldn't have `intersect`-ed.
+
+We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we use the "back tick" character (`` ` ``) around both.
 
 
 ```r
