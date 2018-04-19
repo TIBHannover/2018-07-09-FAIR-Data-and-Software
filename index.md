@@ -122,8 +122,9 @@ sessions, using (Software & Data) Carpentry materials to illustrate and
 practice a principle's implementation in the
 [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics)
 disciplines ("[MINT-Fächer](https://de.wikipedia.org/wiki/MINT-F%C3%A4cher)").
-Regardless of discipline, learners are encouraged to bring questions about
-their own data and source code, we can answer those during the week.
+Regardless of discipline, learners are encouraged to **bring** questions about
+their **own data and source code**. We will be happy to answer your questions 
+about these during the week.
 
 
 {% include schedule.html %}
