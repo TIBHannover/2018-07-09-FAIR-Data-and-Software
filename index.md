@@ -98,21 +98,6 @@ This schedule may be adjusted to participant wishes after registration.
 Also, the topics will be hyperlinked to the lesson material for documentation 
 purposes. You don't have to work through the material before the workshop.
 
-{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
-<p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %}
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
-
-
 We will focus on one topic / principle per day, introducing its reasoning,
 benefits, and (differing and/or shared) implications for *proper research
 data/software management/development* together with the learners. We'll
@@ -651,4 +636,5 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
   </ol>
 </div>
 {% endcomment %}
+
 [![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
