@@ -92,7 +92,11 @@ If you have any questions, please don't hesitate to email us: [{{page.email}}](m
 
 ---
 
-## Schedule
+## Preliminary Schedule
+
+This schedule may be adjusted to participant wishes after registration.
+Also, the topics will be hyperlinked to the lesson material for documentation 
+purposes. You don't have to work through the material before the workshop.
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
