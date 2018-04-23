@@ -24,17 +24,17 @@ We want to analyse ice core data from two different regions of the world (and pr
 - [Arctic (NGRIP) `10.1594/PANGAEA.586886`](https://doi.pangaea.de/10.1594/PANGAEA.586886)
 - [Antarctic (DomeC) `10.1594/PANGAEA.57629`](https://doi.pangaea.de/10.1594/PANGAEA.57629)
 
-Please skim over both pages.
+Please read both datasets' abstracts now.
 
 ---
 
 - Noticed the DOIs? Both datasets are **F**indable :-)
-- Even more so, because both are annotated with geographic and event info.
+  - Even more so, because both are annotated with geographic and event info.
 - How are they licensed? Under what conditions are we allowed to use the data?
-- Noticed the `Download` links over `https`? **A**ccessible data :-)
+- Noticed the `Download` links over `https`? Easily **a**ccessible data :-)
 
 
-Now, will the data also be **i**nteroperable and **r**eusable on the technical level? The list of parameters in both cases show that `Age` and `d18O H2O` were measured. Sounds good, but will it blend???
+However, will the data also be **i**nteroperable and **r**eusable on the technical level? The list of parameters in both cases show that `Age` and `d18O H2O` were measured. Looks good, but will the data integration be that simple (AKA: Will it blend???).
 
 > ## Challenge: What should be our first move towards our goal of analysing the datasets?
 >
