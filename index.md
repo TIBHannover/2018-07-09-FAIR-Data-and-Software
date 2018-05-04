@@ -92,7 +92,7 @@ If you have any questions, please don't hesitate to email us: [{{page.email}}](m
 
 ---
 
-## Preliminary Schedule
+<h2 id="schedule">Preliminary Schedule</h2>
 
 This schedule may be adjusted to participant wishes after registration.
 Also, the topics will be hyperlinked to the lesson material for documentation 
