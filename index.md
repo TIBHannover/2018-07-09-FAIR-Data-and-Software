@@ -115,12 +115,6 @@ about these during the week.
 {% include schedule.html %}
 
 
-### Set-up help
-
-We will offer a virtual set-up help on the Thursday and Friday before the workshop
-(5. & 6. of July) between 13 and 14 o'clock in the afternoons. In order to ease
-de-bugging, please follow the [set-up](#setup) instructions
-
 ### Collaborative Notes
 
 We will use this <a href="{{page.collaborative_notes}}">collaborative
@@ -155,6 +149,22 @@ below. In addition, you will need an up-to-date web browser.
 We maintain a list of common issues that occur during installation as a reference 
 for instructors that may be useful on the [Configuration Problems and Solutions 
 wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions).
+
+## Setup checklist
+
+- [ ] [Git installed](#git)
+- [ ] [Anaconda-Python installed](#python), or another Python CLI/IDE
+- [ ] [RStudio installed](#r), or another R CLI/IDE
+- [ ] in R(Studio), `install.packages(c('devtools', 'ggplot2', 'knitr', 'magrittr', 'roxygen2', 'testthat'))` worked
+- [ ] for the R packaging lesson, **either** bring your own code, **or** `git clone https://github.com/TIBHannover/BacDiveR.git` and follow its [installation instructions](https://tibhannover.github.io/BacDiveR/#installation).
+
+### Setup help
+
+We will offer a virtual set-up help on the Thursday and Friday before the workshop
+(5. & 6. of July) between 13 and 14 o'clock in the afternoons. In order to ease
+de-bugging, please follow the [set-up](#setup) instructions
+
+### Setup details
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
@@ -442,8 +452,8 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
       <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
       <p>
         Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
         Note that if you have separate user and admin accounts, you should run the
@@ -457,7 +467,7 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
       <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
       <p>
         Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
@@ -467,11 +477,11 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
       <h4 id="r-linux">Linux</h4>
       <p>
         You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
         <code>sudo dnf install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
       </p>
     </div>
   </div>
