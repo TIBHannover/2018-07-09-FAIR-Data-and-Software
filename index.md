@@ -51,6 +51,7 @@ and [add the event to your Google
 Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR Data and Software&dates={{ page.startdate | replace: "-", "" }}/{{ page.enddate | replace: "-", "" | plus: 0}}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details=Carpentries-based workshop at the {{ page.venue }}").
 
 
+### Costs
 
 **Participation is free of charge**. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves. This workshop is part of an ideas competition supported by the [Jülich Research Centre](http://www.fz-juelich.de/portal/EN/Home/), and part of a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
 
