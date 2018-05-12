@@ -279,7 +279,7 @@ de-bugging, please follow the [set-up](#setup) instructions
     optimized for writing code, with features like automatic
     color-coding of key words.  The default text editor on macOS and
     Linux is usually set to Vim, which is not famous for being
-    intuitive.  if you accidentally find yourself stuck in it, try
+    intuitive.  If you accidentally find yourself stuck in it, try
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
     exclamation mark), then hitting Return to return to the shell.
   </p>
@@ -306,8 +306,8 @@ de-bugging, please follow the [set-up](#setup) instructions
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a href="https://notepad-plus-plus.org/">Notepad++</a> or
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must
           add its installation directory to your system path.</strong>
         Please ask your instructor to help you do this.
@@ -323,8 +323,8 @@ de-bugging, please follow the [set-up](#setup) instructions
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -336,8 +336,8 @@ de-bugging, please follow the [set-up](#setup) instructions
       <p>
         Others editors that you can use are
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a href="https://kate-editor.org/">Kate</a> or
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>
   </div>
@@ -350,7 +350,7 @@ de-bugging, please follow the [set-up](#setup) instructions
   <h3>Python</h3>
 
   <p>
-    <a href="http://python.org">Python</a> is a popular language for
+    <a href="https://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
     well.  Installing all of its research packages individually can be
     a bit difficult, so we recommend
@@ -440,10 +440,10 @@ de-bugging, please follow the [set-up](#setup) instructions
   <h3>R</h3>
 
   <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
+    <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
+    <a href="https://www.rstudio.com/">RStudio</a>.
   </p>
 
   <div class="row">
@@ -455,10 +455,10 @@ de-bugging, please follow the [set-up](#setup) instructions
         <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the
-        installers as administrator (right-click on .exe file and select "Run as
-        administrator" instead of double-clicking). Otherwise problems may occur later,
+        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+        Note that if you have separate user and admin accounts, you should run the 
+        installers as administrator (right-click on .exe file and select "Run as 
+        administrator" instead of double-clicking). Otherwise problems may occur later, 
         for example when installing R packages.
       </p>
     </div>
@@ -468,9 +468,9 @@ de-bugging, please follow the [set-up](#setup) instructions
       <p>
         Install R by downloading and running
         <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -481,7 +481,7 @@ de-bugging, please follow the [set-up](#setup) instructions
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
         <code>sudo dnf install R</code>).  Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
       </p>
     </div>
   </div>
@@ -493,7 +493,7 @@ de-bugging, please follow the [set-up](#setup) instructions
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
+    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
 
   <div class="row">
