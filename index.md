@@ -118,7 +118,9 @@ about these during the week.
 ### Setup help
 
 We will offer a virtual set-up help on the Thursday and Friday before the workshop
-(5. & 6. of July) between 13 and 14 o'clock in the afternoons. In order to ease
+(5. & 6. of July) between 13 and 14 o'clock CEST in the afternoons ([convert to your time 
+zone](https://www.timeanddate.com/worldclock/converter.html?iso=20180705T110000&p1=309)).
+In order to ease
 debugging, please follow the [setup](#setup) instructions
 
 ### Collaborative Notes
