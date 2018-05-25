@@ -25,7 +25,7 @@ We want to analyse ice core data from two different regions of the world (and pr
 - [Arctic (NGRIP) `10.1594/PANGAEA.586886`](https://doi.pangaea.de/10.1594/PANGAEA.586886)
 - [Antarctic (DomeC) `10.1594/PANGAEA.57629`](https://doi.pangaea.de/10.1594/PANGAEA.57629)
 
-Please read both datasets' abstracts now.
+Please read both datasets' abstracts now [@northgreenlandicecoreprojectmembers2007ymoo; @lorius1979icrf].
 
 ---
 
