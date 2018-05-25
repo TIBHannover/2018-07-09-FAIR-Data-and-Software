@@ -11,6 +11,7 @@ objectives:
 - "Visualising data from two different sets."
 keypoints:
 - "The FAIR-er a dataset, the easier its re-use in answering a new research questions"
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -52,7 +53,7 @@ However, will the data also be **i**nteroperable and **r**eusable on the technic
 > > [CRAN.R-project.org/web/packages/available_packages_by_name.html
 > > ](https://cran.r-project.org/web/packages/available_packages_by_name.html)
 > >  or [https://ropensci.org/packages/](ROpenSci.org/packages) for
-> > "PANGAEA".
+> > "PANGAEA" [@pangaear].
 > {: .solution}
 {: .challenge}
 
@@ -139,3 +140,6 @@ ggplot(data = DomeC,
 So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the CC-BY-3.0 license meant mean good **r**eusability.
 
 This is the power of FAIR combined with nicely packaged-up R code: Reducing the burden of finding, downloading and cleaning up datasets.
+
+
+## References
