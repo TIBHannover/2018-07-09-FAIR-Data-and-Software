@@ -12,7 +12,7 @@ humandate: "9-13. July 2018"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-07-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Katrin Leinweber", "Angelina Kraft", "You?"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Katrin Leinweber", "Angelina Kraft", "Konrad Förstner", "Martin Hammitzsch", "Luke Johnston", "Mateusz Kuzak"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
 collaborative_notes: https://hackmd.io/Z4LC40umSGKs0ycv3PC2Ow    # https://github.com/swcarpentry/workshop-template/issues/418
@@ -161,8 +161,9 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
 ### Setup help
 
 We will offer a virtual set-up help on the Thursday and Friday before the workshop
-(5. & 6. of July) between 13 and 14 o'clock in the afternoons. In order to ease
-de-bugging, please follow the [set-up](#setup) instructions
+(5. & 6. of July) between 13 and 14 o'clock CEST in the afternoons ([convert to your time 
+zone](https://www.timeanddate.com/worldclock/converter.html?iso=20180705T110000&p1=309)).
+In order to ease debugging, please follow the [setup](#setup-details) instructions.
 
 ### Setup details
 
