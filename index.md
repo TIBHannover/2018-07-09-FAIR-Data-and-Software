@@ -15,7 +15,7 @@ enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-
 instructor: ["Katrin Leinweber", "Angelina Kraft", "Konrad Förstner", "Martin Hammitzsch", "Luke Johnston", "Mateusz Kuzak"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
-collaborative_notes: https://pad.software-carpentry.org/TIB-FDS    # https://github.com/swcarpentry/workshop-template/issues/418
+collaborative_notes: https://hackmd.io/ERXxduPVTPSc3LvSjL2nfw    # https://github.com/swcarpentry/workshop-template/issues/418
 ---
 
 ### General Information
