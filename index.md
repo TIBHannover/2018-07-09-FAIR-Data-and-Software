@@ -63,7 +63,7 @@ At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water
 
 ### Requirements
 
-**Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.** They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
+**Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.** They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{ site.swc_site }}/conduct.html).
 
 **Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the (non-experimental) [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their [material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
 
