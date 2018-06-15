@@ -452,6 +452,8 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
         for example when installing R packages.
+	Because you'll also be learning to <em>build</em> R packages, please also install 
+	<a href="https://ftp.gwdg.de/pub/misc/cran/bin/windows/Rtools/">Rtools</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -463,6 +465,9 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+	Because you'll also be learning to <em>build</em> R packages, please also install 
+	<a href="https://ftp.gwdg.de/pub/misc/cran/bin/macosx/tools/"><code>clang-6...pkg</code>
+	and <code>gfortran-6...pkg</code></a>.
       </p>
     </div>
     <div class="col-md-4">
