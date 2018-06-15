@@ -58,7 +58,7 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 ### Food
 
-At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water), as well as both a vegan and a non-vegan lunch on each of the five days will be provided (free of charge). Participants will need to obtain breakfasts and dinners outside of TIB. Many cuisine options from bakeries to restaurants are located within walking distance.
+At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water), as well as both a vegan and a non-vegan lunch on each of the five days will be provided (free of charge). Participants will need to obtain breakfasts and dinners outside of the TIB. Many cuisine options from bakeries to restaurants are located within walking distance.
 
 
 ### Requirements
