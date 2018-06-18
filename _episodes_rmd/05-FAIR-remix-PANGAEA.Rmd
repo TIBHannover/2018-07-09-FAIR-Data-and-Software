@@ -101,7 +101,7 @@ intersect(names(NGRIP), names(DomeC))
 
 This is great, because we get only exactly two variable names. If there had been even the slightest difference in the name, unit, or a spelling mistake, we would have seen less output, because the `names` wouldn't have `intersect`-ed.
 
-We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we use the "back tick" character (`` ` ``) around both.
+We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we have to use the "back tick" character (`` ` ``) around both. `Snake_case` colum names would have saved us from this, but hey!
 
 ```{r plot}
 library(ggplot2)
@@ -121,8 +121,8 @@ Integrating the two datasets with this little code was possible, only because bo
 a) either rename one between downloading and plotting, or
 
 ```{r str_diff, eval=FALSE}
-names(NGRIP$`some other Age variable's name`) <- names(DomeC$`Age [ka BP]`)
-names(NGRIP$`some other d18O variable's name`) <- names(DomeC$`d18O H2O [per mil SMOW]`)
+names(NGRIP$`some other Age variable's name`) <- names(DomeC$Age_ka_BP)
+names(NGRIP$`some other d18O variable's name`) <- names(DomeC$d18O_H2O_per_mil_SMOW)
 ```
 
 b) specify in `geom_point` which second `y` should be plotted.
