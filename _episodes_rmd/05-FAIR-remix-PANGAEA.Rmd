@@ -1,6 +1,6 @@
 ---
 source: Rmd
-title: "3 - I - Remixing datasets based on uniform variable names"
+title: "Reusing datasets: from the abstract to the technical details"
 output: html_document
 teaching: 30
 exercises: 2
@@ -20,7 +20,9 @@ opts_chunk$set(echo = TRUE)
 opts_chunk$set(fig.path = "../fig/01-")
 ```
 
-We want to analyse ice core data from two different regions of the world (and projects):
+We want to find out, whether the Arctic and Antarctic ice core records show
+different CO2 curves in the past. In order to do that, we can analyse ice core
+data from two different projects:
 
 - [Arctic (NGRIP) `10.1594/PANGAEA.586886`](https://doi.pangaea.de/10.1594/PANGAEA.586886)
 - [Antarctic (DomeC) `10.1594/PANGAEA.57629`](https://doi.pangaea.de/10.1594/PANGAEA.57629)
@@ -36,6 +38,8 @@ Please read both datasets' abstracts now [@northgreenlandicecoreprojectmembers20
   allowed to **r**euse the material, if we "give appropriate credit, provide a 
   link to the license, and indicate if changes were made." :-) 
 
+However, will the data also be FAIR on the technical level, where we actually work?
+Will it be _machine-reusable_? We're not going to use Excel for 8k datapoints, right?!
 
 However, will the data also be **i**nteroperable and **r**eusable on the technical level? The list of parameters in both cases show that `Age` and `d18O H2O` were measured. Looks good, but will the data integration be that simple (AKA: Will it blend???).
 
@@ -143,7 +147,7 @@ ggplot(data = DomeC,
 
 So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the [CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/) mean good **r**eusability.
 
-This is the power of FAIR combined with nicely packaged-up R code: Reducing the burden of finding, downloading and cleaning up datasets.
+This is the power of FAIR Data combined with usable software: Reducing the burden of finding, downloading, cleaning up datasets, and actually using them.
 
 
 ## References
