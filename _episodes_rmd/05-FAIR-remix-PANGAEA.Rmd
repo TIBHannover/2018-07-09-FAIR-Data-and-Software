@@ -51,7 +51,7 @@ Will it be _machine-reusable_? We're not going to use Excel for 8k datapoints, r
 >
 > > ## Which one do you prefer?
 > >
-> > Neither ;-) There is a third option: looking for an R package
+> > There is a third option ;-) Looking for an R package or a Python module
 > > related to the data repository. Search
 > > [CRAN.R-project.org/web/packages/available_packages_by_name.html
 > > ](https://cran.r-project.org/web/packages/available_packages_by_name.html)
