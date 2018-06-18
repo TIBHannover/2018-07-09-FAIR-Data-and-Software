@@ -130,9 +130,22 @@ ggplot(data = NGRIP,
   scale_x_reverse() # because Age means the past
 ```
 
-Incidentally, the `Dome C` core (black, east Antarctica) captured higher `d18O` concentrations, than `NGRIP` (*Green*land).
+Incidentally, the `Dome C` core (black, east Antarctica) captured higher `d18O`
+concentrations, than `NGRIP` (*Green*land). Because of the inverse relationship
+of `d18O` to temperature [@EPSTEIN1953213], it seems that the Southern Hemisphere
+was been _cooler_ than the North.
 
-Integrating the two datasets with this little code was possible, because both variables are named exactly the same and thus easily machine-readable. If they hadn't been, we would have needed to:
+
+## Conclusion
+
+Integrating the two datasets with this little code was possible, because both variables are named exactly the same and thus easily machine-readable.
+
+Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, and community-standard variable naming and the [CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/) meant good **r**eusability.
+
+**This is the power of FAIR Data combined with usable software: Reducing the burden of finding, downloading, cleaning up datasets, and actually using them.**
+
+
+## Supplement: Harmonising different variable names
 
 a) either rename one between downloading and plotting, or
 
@@ -152,10 +165,6 @@ ggplot(data = DomeC,
                            y = `some other d18O variable's name`)
              color = "dark green")
 ```
-
-So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the [CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/) mean good **r**eusability.
-
-This is the power of FAIR Data combined with usable software: Reducing the burden of finding, downloading, cleaning up datasets, and actually using them.
 
 
 ## References
