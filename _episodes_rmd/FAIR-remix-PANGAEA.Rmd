@@ -2,8 +2,8 @@
 source: Rmd
 title: "Reusing datasets: from the abstract to the technical details"
 output: html_document
-teaching: 30
-exercises: 2
+teaching: 20
+exercises: 10
 questions:
 - "Which properties help us reuse datasets?"
 objectives:
@@ -17,7 +17,7 @@ bibliography: references.bib
 ```{r setup, include=FALSE}
 library(knitr)
 opts_chunk$set(echo = TRUE)
-opts_chunk$set(fig.path = "../fig/01-")
+opts_chunk$set(fig.path = "../fig/")
 ```
 
 We want to find out, whether the Arctic and Antarctic ice core records show
