@@ -92,8 +92,10 @@ str(DomeC)
 
 Both lists contain some metadata and the actual `data` as a `tbl_df`. What is that? [Hint: It's from the tidyverse](https://tibble.tidyverse.org/).
 
-To verify that both variables `Age` and `d18O H2O` are really labelled in exactly the same way, we extract the variable names of both tibbles and throw out others that exist only in one tibble.
+In order to answer our research question (see above) we need to be able to combine
+both the `Age` and the `d18O`.
 
+To verify that both variables are really labelled in exactly the same way, we extract both tibbles and compare their variable names.
 
 ```{r vars}
 NGRIP <- NGRIP[[1]]$data
@@ -102,7 +104,7 @@ intersect(names(NGRIP), names(DomeC))
 # or: c("Age [ka BP]", "d18O H2O [per mil SMOW]") %in% c(names(NGRIP), names(DomeC))
 ```
 
-This is great, because we get only exactly two variable names. If there had been even the slightest difference in the name, unit, or a spelling mistake, we would have seen less output, because the `names` wouldn't have `intersect`-ed.
+We get only exactly two variable names. This is great, because if there had been even the slightest difference in the name, unit, or a spelling mistake, we would have seen less output, because the `names` wouldn't have `intersect`-ed.
 
 We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Because the variables names contain spaces and brackets, we have to use the "back tick" character (`` ` ``) around both. `Snake_case` colum names would have saved us from this, but hey!
 
@@ -118,7 +120,7 @@ ggplot(data = NGRIP,
 
 Incidentally, the `Dome C` core (black, east Antarctica) captured higher `d18O` concentrations, than `NGRIP` (*Green*land).
 
-Integrating the two datasets with this little code was possible, only because both variables were named exactly the same and thus easily machine-readable. If they hadn't been, we would have needed to:
+Integrating the two datasets with this little code was possible, because both variables are named exactly the same and thus easily machine-readable. If they hadn't been, we would have needed to:
 
 a) either rename one between downloading and plotting, or
 
