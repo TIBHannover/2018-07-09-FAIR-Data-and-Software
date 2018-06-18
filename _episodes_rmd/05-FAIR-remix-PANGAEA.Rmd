@@ -31,28 +31,25 @@ Please read both datasets' abstracts now [@northgreenlandicecoreprojectmembers20
 
 ---
 
-- Noticed the DOIs? Both datasets are **F**indable :-)
-  - Even more so, because both are annotated with geographic and event info.
-- Noticed the `Download` links over `https`? Easily **a**ccessible data :-)
+- Noticed the DOIs & metadata? Both datasets are **F**indable.
 - [CC-BY-licensed](https://creativecommons.org/licenses/by/3.0/) means we are
   allowed to **r**euse the material, if we "give appropriate credit, provide a 
   link to the license, and indicate if changes were made." :-) 
+- The list of parameters in both cases show that `Age` and `d18O H2O` were 
+  measured. Looks **i**nteroperable.
+- Noticed the `Download` links over `https`? Easily **a**ccessible.
 
 However, will the data also be FAIR on the technical level, where we actually work?
 Will it be _machine-reusable_? We're not going to use Excel for 8k datapoints, right?!
 
-However, will the data also be **i**nteroperable and **r**eusable on the technical level? The list of parameters in both cases show that `Age` and `d18O H2O` were measured. Looks good, but will the data integration be that simple (AKA: Will it blend???).
-
-> ## Challenge: What should be our first move towards our goal of analysing the datasets?
+> ## Challenge: How do we best download the datasets?
 >
-> Of course, we need to download the datasets somehow. We could:
+> We could for example:
 >
-> - `Download dataset as tab-delimited text` manually, saving the files
-> - write our own little download function that could for example take a vector dataset IDs (`c(586886, 57629)`) and somehow
+> 1. `Download dataset as tab-delimited text` manually, save the files, then read them in.
+> 1. Write our own little download function, e.g. with a vector of dataset IDs as input (`c(586886, 57629)`).
 >
-> Which one do you prefer?
->
-> > ## Solution
+> > ## Which one do you prefer?
 > >
 > > Neither ;-) There is a third option: looking for an R package
 > > related to the data repository. Search
