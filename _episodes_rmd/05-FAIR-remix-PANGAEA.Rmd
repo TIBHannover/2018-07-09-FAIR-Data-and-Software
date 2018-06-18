@@ -31,8 +31,10 @@ Please read both datasets' abstracts now [@northgreenlandicecoreprojectmembers20
 
 - Noticed the DOIs? Both datasets are **F**indable :-)
   - Even more so, because both are annotated with geographic and event info.
-- How are they licensed? Under what conditions are we allowed to use the data?
 - Noticed the `Download` links over `https`? Easily **a**ccessible data :-)
+- [CC-BY-licensed](https://creativecommons.org/licenses/by/3.0/) means we are
+  allowed to **r**euse the material, if we "give appropriate credit, provide a 
+  link to the license, and indicate if changes were made." :-) 
 
 
 However, will the data also be **i**nteroperable and **r**eusable on the technical level? The list of parameters in both cases show that `Age` and `d18O H2O` were measured. Looks good, but will the data integration be that simple (AKA: Will it blend???).
@@ -136,7 +138,7 @@ ggplot(data = DomeC,
              color = "dark green")
 ```
 
-So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the CC-BY-3.0 license meant mean good **r**eusability.
+So, this seemed pretty FAIR, right? Granted, **i**nteroperability encompasses a [few qualities](https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/#i) besides uniform variable names. However, the datasets were well **f**indable & **a**ccessible, community-standard variable naming and the [CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/) mean good **r**eusability.
 
 This is the power of FAIR combined with nicely packaged-up R code: Reducing the burden of finding, downloading and cleaning up datasets.
 
