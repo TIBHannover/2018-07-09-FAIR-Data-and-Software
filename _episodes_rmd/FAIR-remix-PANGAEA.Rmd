@@ -21,7 +21,7 @@ opts_chunk$set(fig.path = "../fig/")
 ```
 
 We want to find out, whether the Arctic and Antarctic ice core records show
-different CO2 curves in the past. In order to do that, we can analyse ice core
+different temperature curves in the past. In order to do that, we can analyse ice core
 data from two different projects:
 
 - [NGRIP (Arctic)](https://doi.pangaea.de/10.1594/PANGAEA.586886)
