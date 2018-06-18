@@ -32,12 +32,12 @@ Please read both datasets' abstracts now [@northgreenlandicecoreprojectmembers20
 ---
 
 - Noticed the DOIs & metadata? Both datasets are **F**indable.
+- Noticed the `Download` links over `https`? Easily **a**ccessible.
+- The list of parameters in both cases show that `Age` and `d18O H2O` were 
+  measured. Looks **i**nteroperable.
 - [CC-BY-licensed](https://creativecommons.org/licenses/by/3.0/) means we are
   allowed to **r**euse the material, if we "give appropriate credit, provide a 
   link to the license, and indicate if changes were made." :-) 
-- The list of parameters in both cases show that `Age` and `d18O H2O` were 
-  measured. Looks **i**nteroperable.
-- Noticed the `Download` links over `https`? Easily **a**ccessible.
 
 However, will the data also be FAIR on the technical level, where we actually work?
 Will it be _machine-reusable_? We're not going to use Excel for 8k datapoints, right?!
