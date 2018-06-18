@@ -99,6 +99,7 @@ To verify that both variables `Age` and `d18O H2O` are really labelled in exactl
 NGRIP <- NGRIP[[1]]$data
 DomeC <- DomeC[[1]]$data
 intersect(names(NGRIP), names(DomeC))
+# or: c("Age [ka BP]", "d18O H2O [per mil SMOW]") %in% c(names(NGRIP), names(DomeC))
 ```
 
 This is great, because we get only exactly two variable names. If there had been even the slightest difference in the name, unit, or a spelling mistake, we would have seen less output, because the `names` wouldn't have `intersect`-ed.
