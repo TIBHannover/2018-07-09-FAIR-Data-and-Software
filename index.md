@@ -453,12 +453,13 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
         Install R by downloading and running
         <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
+        Then, install <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
         Note that if you have separate user and admin accounts, you should run the 
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
         for example when installing R packages.
+	      Because you'll also be learning to <em>build</em> R packages, please also install the
+	      <a href="https://ftp.gwdg.de/pub/misc/cran/bin/windows/Rtools/">Rtools</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -468,8 +469,10 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
         Install R by downloading and running
         <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
+        Then, install <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
+	      Because you'll also be learning to <em>build</em> R packages, please also install 
+	      <a href="https://ftp.gwdg.de/pub/misc/cran/bin/macosx/tools/"><code>clang-6...pkg</code>
+	      and <code>gfortran-6...pkg</code></a>.
       </p>
     </div>
     <div class="col-md-4">
