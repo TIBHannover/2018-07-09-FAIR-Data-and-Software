@@ -12,7 +12,7 @@ humantime: "9:00-17:00"    # human-readable times for the workshop (e.g., "9:00 
 startdate: 2018-07-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Katrin Leinweber", "Angelina Kraft", "Konrad Förstner", "Martin Hammitzsch", "Luke Johnston", "Mateusz Kuzak"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Chris Erdmann," "You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Chris Erdmann", "You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
 collaborative_notes: https://hackmd.io/Z4LC40umSGKs0ycv3PC2Ow    # https://github.com/swcarpentry/workshop-template/issues/418
 ---
