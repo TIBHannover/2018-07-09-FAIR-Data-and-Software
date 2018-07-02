@@ -446,7 +446,7 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
         Note that if you have separate user and admin accounts, you should run the 
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
@@ -461,7 +461,7 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -472,10 +472,17 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
         <code>sudo dnf install R</code>).  Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
       </p>
     </div>
   </div>
+  <p>
+    Please also run the following installation command in your R console before
+    attending:
+  <code>
+    install.packages(c("ggplot2", "knitr", "pangaear", "roxygen2", "testthat", "usethis"))
+    </code>
+  </p>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 
