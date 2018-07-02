@@ -14,7 +14,7 @@ enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-
 instructor: ["Katrin Leinweber", "Angelina Kraft", "Konrad Förstner", "Martin Hammitzsch", "Luke Johnston", "Mateusz Kuzak"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Chris Erdmann", "You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
-collaborative_notes: https://hackmd.io/Z4LC40umSGKs0ycv3PC2Ow    # https://github.com/swcarpentry/workshop-template/issues/418
+collaborative_notes: https://hackmd.io/ERXxduPVTPSc3LvSjL2nfw    # https://github.com/swcarpentry/workshop-template/issues/418
 ---
 
 ### General Information
@@ -114,14 +114,6 @@ about these during the week.
 {% include schedule.html %}
 
 
-### Setup help
-
-We will offer a virtual set-up help on the Thursday and Friday before the workshop
-(5. & 6. of July) between 13 and 14 o'clock CEST in the afternoons ([convert to your time 
-zone](https://www.timeanddate.com/worldclock/converter.html?iso=20180705T110000&p1=309)).
-In order to ease
-debugging, please follow the [setup](#setup) instructions
-
 ### Collaborative Notes
 
 We will use this <a href="{{page.collaborative_notes}}">collaborative
@@ -156,6 +148,22 @@ below. In addition, you will need an up-to-date web browser.
 We maintain a list of common issues that occur during installation as a reference 
 for instructors that may be useful on the [Configuration Problems and Solutions 
 wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions).
+
+## Setup checklist
+
+- [ ] [Git installed](#git)
+- [ ] [Anaconda-Python installed](#python), or another Python CLI/IDE
+- [ ] [RStudio installed](#r), or another R CLI/IDE
+- [ ] in R(Studio), `install.packages(c("ggplot2", "knitr", "pangaear", "roxygen2", "testthat", "usethis"))` worked
+
+### Setup help
+
+We will offer a virtual set-up help on the Thursday and Friday before the workshop
+(5. & 6. of July) between 13 and 14 o'clock CEST in the afternoons ([convert to your time 
+zone](https://www.timeanddate.com/worldclock/converter.html?iso=20180705T110000&p1=309)).
+In order to ease debugging, please follow the [setup](#setup-details) instructions.
+
+### Setup details
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
