@@ -143,13 +143,19 @@ way, we extract both tibbles and compare their variable names.
 ``` r
 NGRIP <- NGRIP[[1]]$data
 DomeC <- DomeC[[1]]$data
-# c("Age [ka BP]", "d18O H2O [per mil SMOW]") %in% c(names(NGRIP), names(DomeC))
-#> [1] TRUE TRUE
-# but more elegant:
 intersect(names(NGRIP), names(DomeC))
 ```
 
-    ## [1] "Age [ka BP]"             "d18O H2O [per mil SMOW]"
+```
+## [1] "Age [ka BP]"             "d18O H2O [per mil SMOW]"
+```
+
+```r
+# less elegant, but also possible:
+# c("Age [ka BP]", "d18O H2O [per mil SMOW]") %in% c(names(NGRIP), names(DomeC))
+#> [1] TRUE TRUE
+```
+
 
 We get only exactly two variable names. This is great, because if there
 had been even the slightest difference in the name, unit, or a spelling

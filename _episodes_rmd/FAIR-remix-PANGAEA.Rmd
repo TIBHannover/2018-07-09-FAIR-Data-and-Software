@@ -113,10 +113,11 @@ To verify that both variables are really labelled in exactly the same way, we ex
 ```{r vars}
 NGRIP <- NGRIP[[1]]$data
 DomeC <- DomeC[[1]]$data
+intersect(names(NGRIP), names(DomeC))
+
+# less elegant, but also possible:
 # c("Age [ka BP]", "d18O H2O [per mil SMOW]") %in% c(names(NGRIP), names(DomeC))
 #> [1] TRUE TRUE
-# but more elegant:
-intersect(names(NGRIP), names(DomeC))
 ```
 
 We get only exactly two variable names. This is great, because if there had been even the slightest difference in the name, unit, or a spelling mistake, we would have seen less output, because the `names` wouldn't have `intersect`-ed.
