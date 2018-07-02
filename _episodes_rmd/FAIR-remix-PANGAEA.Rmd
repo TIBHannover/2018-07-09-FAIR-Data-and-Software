@@ -1,7 +1,7 @@
 ---
 source: Rmd
 title: "Reusing datasets: from the abstract to the technical details"
-output: html_document
+output: markdown_document
 teaching: 20
 exercises: 10
 questions:
