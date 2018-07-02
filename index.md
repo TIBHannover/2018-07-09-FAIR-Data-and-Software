@@ -155,8 +155,7 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
 - [ ] [Git installed](#git)
 - [ ] [Anaconda-Python installed](#python), or another Python CLI/IDE
 - [ ] [RStudio installed](#r), or another R CLI/IDE
-- [ ] in R(Studio), `install.packages(c('devtools', 'ggplot2', 'knitr', 'magrittr', 'roxygen2', 'testthat'))` worked
-- [ ] for the R packaging lesson, **either** bring your own code, **or** `git clone https://github.com/TIBHannover/BacDiveR.git` and follow its [installation instructions](https://tibhannover.github.io/BacDiveR/#installation).
+- [ ] in R(Studio), `install.packages(c("ggplot2", "knitr", "pangaear", "roxygen2", "testthat", "usethis"))` worked
 
 ### Setup help
 
