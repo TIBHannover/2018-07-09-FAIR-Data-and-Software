@@ -10,7 +10,7 @@ objectives:
 - "Finding both data and software for reuse."
 - "Visualising data from two different sets."
 keypoints:
-- "The FAIR-er a dataset, the easier its reuse in answering a new research questions"
+- "The FAIR-er a dataset, the easier its reuse in answering a new research question."
 bibliography: references.bib
 ---
 
