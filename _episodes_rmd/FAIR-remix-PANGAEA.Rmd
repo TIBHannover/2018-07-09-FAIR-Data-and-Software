@@ -42,14 +42,17 @@ Please read both datasets' abstracts now [@northgreenlandicecoreprojectmembers20
 However, will the data also be FAIR on the technical level, where we actually work?
 Will it be _machine-reusable_? We're not going to use Excel for 8k datapoints, right?!
 
-Let's plan backwards from the the end goal (comparing the temperature proxy measurements):
-- Comparing works well visually, so we want to plot a diagram.
-- For that, we need to combine/align x- and y-axes from both datasets.
-- For that, we need to find out, whether we need to convert them.
-- For that, we need to extract the data from the dataset.
-- For that, we need to know the datasets' structures.
-- For that, we need to download the datasets.
-- And we want to do all that in a reproducible manner!
+Let's plan backwards from the the desired outcome: Comparing the temperature proxy
+measurements in a diagram. In order to get there, we need to:
+
+1. combine and/or align the x- and y-axes of both datasets,
+1. find out, whether we need to convert the values and/or units,
+1. extract the values from the dataset,
+1. know the datasets' structures,
+1. download the datasets, and
+1. do all that in a reproducible manner ;-)
+
+The last point makes it clear that we will work in a script file (`.R` or `.Rmd`).
 
 > ## Challenge: How do we best download the datasets?
 >
