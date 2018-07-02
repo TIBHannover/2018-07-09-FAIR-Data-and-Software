@@ -1,8 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-title: "FAIR data and software"
-subtitle: "Carpentry-based workshop"
+title: "FAIR Data and Software (Carpentries-based Workshop)"
 venue: "Technische Informationsbibliothek (TIB)"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Welfengarten 1B, 30167 Hannover, Germany"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "de"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
@@ -13,7 +12,7 @@ humantime: "9:00-17:00"    # human-readable times for the workshop (e.g., "9:00 
 startdate: 2018-07-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Katrin Leinweber", "Angelina Kraft", "Konrad Förstner", "Martin Hammitzsch", "Luke Johnston", "Mateusz Kuzak"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Chris Erdmann", "You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
 collaborative_notes: https://hackmd.io/Z4LC40umSGKs0ycv3PC2Ow    # https://github.com/swcarpentry/workshop-template/issues/418
 ---
@@ -48,7 +47,7 @@ for all the details, including public transport directions and
 [accommodation suggestions](https://events.tib.eu/fair-data-software/accommodation/). You can also find us on [OpenStreetMap
 ](https://www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16)
 and [add the event to your Google
-Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR Data and Software&dates={{ page.startdate | replace: "-", "" }}/{{ page.enddate | replace: "-", "" | plus: 0}}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details=Carpentries-based workshop at the {{ page.venue }}").
+Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR Data and Software&dates={{ page.startdate | replace: "-", "" }}/{{ page.enddate | replace: "-", "" | plus: 0}}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details="Carpentries-based workshop at the {{ page.venue }}").
 
 
 ### Costs
@@ -58,12 +57,12 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 ### Food
 
-At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water), as well as both a vegan and a non-vegan lunch on each of the five days will be provided (free of charge). Participants will need to obtain breakfasts and dinners outside of TIB. Many cuisine options from bakeries to restaurants are located within walking distance.
+At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water), as well as both a vegan and a non-vegan lunch on each of the five days will be provided (free of charge). Participants will need to obtain breakfasts and dinners outside of the TIB. Many cuisine options from bakeries to restaurants are located within walking distance.
 
 
 ### Requirements
 
-**Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.** They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{site}}/conduct.html).
+**Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.** They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{ site.swc_site }}/conduct.html).
 
 **Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the (non-experimental) [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their [material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
 
@@ -96,7 +95,7 @@ If you have any questions, please don't hesitate to email us: [{{page.email}}](m
 
 This schedule may be adjusted to participant wishes after registration.
 Also, the topics will be hyperlinked to the lesson material for documentation 
-purposes. You don't have to work through the material before the workshop.
+purposes. You don't _have to_ work through the material before the workshop.
 
 We will focus on one topic / principle per day, introducing its reasoning,
 benefits, and (differing and/or shared) implications for *proper research
@@ -446,14 +445,13 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         Install R by downloading and running
         <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+        Then, install <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
         Note that if you have separate user and admin accounts, you should run the 
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
         for example when installing R packages.
-	Because you'll also be learning to <em>build</em> R packages, please also install 
-	<a href="https://ftp.gwdg.de/pub/misc/cran/bin/windows/Rtools/">Rtools</a>.
+	      Because you'll also be learning to <em>build</em> R packages, please also install the
+	      <a href="https://ftp.gwdg.de/pub/misc/cran/bin/windows/Rtools/">Rtools</a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -463,11 +461,10 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         Install R by downloading and running
         <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
         from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
-	Because you'll also be learning to <em>build</em> R packages, please also install 
-	<a href="https://ftp.gwdg.de/pub/misc/cran/bin/macosx/tools/"><code>clang-6...pkg</code>
-	and <code>gfortran-6...pkg</code></a>.
+        Then, install <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
+	      Because you'll also be learning to <em>build</em> R packages, please also install 
+	      <a href="https://ftp.gwdg.de/pub/misc/cran/bin/macosx/tools/"><code>clang-6...pkg</code>
+	      and <code>gfortran-6...pkg</code></a>.
       </p>
     </div>
     <div class="col-md-4">
@@ -478,82 +475,18 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
         you can use your package manager (e.g. for Debian/Ubuntu
         run <code>sudo apt-get install r-base</code> and for Fedora run
         <code>sudo dnf install R</code>).  Also, please install the
-        <a href="https://www.rstudio.com/ide/download/desktop/#download">RStudio IDE</a>.
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio Desktop</a>.
       </p>
     </div>
   </div>
+  <p>
+    Please also run the following installation command in your R console before
+    attending:
+  <code>
+    install.packages(c("ggplot2", "knitr", "pangaear", "roxygen2", "testthat", "usethis"))
+    </code>
+  </p>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
-	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">macOS</h4>
-      <p>
-        SQLite comes pre-installed on macOS.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
-{% comment %}
-<div id="vm">
-  <h3>Virtual Machine</h3>
-
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
-{% endcomment %}
 
 [![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
