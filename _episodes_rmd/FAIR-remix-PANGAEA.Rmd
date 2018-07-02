@@ -79,9 +79,8 @@ The last point makes it clear that we will work in a script file (`.R` or `.Rmd`
 >
 > > ## Solution:
 > >
-> > [ROpenSci.github.io/pangaear/reference
-> > ](https://ropensci.github.io/pangaear/reference/index.html) gives
-> > an overview of its functions. `pg_data()` sounds like what we need.
+> > [ROpenSci.github.io/pangaear/reference](https://ropensci.github.io/pangaear/reference/index.html)
+> > gives an overview of its functions. `pg_data()` sounds like what we need.
 > {: .solution}
 {: .challenge}
 
