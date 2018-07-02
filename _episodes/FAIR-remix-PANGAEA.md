@@ -229,40 +229,20 @@ ggplot(data = DomeC,
              color = "dark green")
 ```
 
+
 ## References
 
-<div id="refs" class="references">
+- Chamberlain, Scott, Kara Woo, Andrew MacDonald, Naupaka Zimmerman, and
+Gavin Simpson. 2018. *Pangaear: Client for the ’Pangaea’ Database*. [CRAN.R-project.org/package=pangaear](https://CRAN.R-project.org/package=pangaear).
 
-<div id="ref-pangaear">
-
-Chamberlain, Scott, Kara Woo, Andrew MacDonald, Naupaka Zimmerman, and
-Gavin Simpson. 2018. *Pangaear: Client for the ’Pangaea’ Database*.
-<https://CRAN.R-project.org/package=pangaear>.
-
-</div>
-
-<div id="ref-EPSTEIN1953213">
-
-Epstein, S, and T Mayeda. 1953. “Variation of O18 Content of Waters from
+- Epstein, S, and T Mayeda. 1953. “Variation of O18 Content of Waters from
 Natural Sources.” *Geochimica et Cosmochimica Acta* 4 (5): 213–24.
-doi:[https://doi.org/10.1016/0016-7037(53)90051-9](https://doi.org/https://doi.org/10.1016/0016-7037\(53\)90051-9).
+doi:[10.1016/0016-7037(53)90051-9](https://doi.org/https://doi.org/10.1016/0016-7037\(53\)90051-9).
 
-</div>
-
-<div id="ref-lorius1979icrf">
-
-Lorius, C, Liliane Merlivat, Jean Jouzel, and M Pourchet. 1979. “Isotope
+- Lorius, C, Liliane Merlivat, Jean Jouzel, and M Pourchet. 1979. “Isotope
 climatic record from ice core Dome C.” Data set. PANGAEA.
 doi:[10.1594/PANGAEA.57629](https://doi.org/10.1594/PANGAEA.57629).
 
-</div>
-
-<div id="ref-northgreenlandicecoreprojectmembers2007ymoo">
-
-North Greenland Ice Core Project Members. 2007. “50 year means of oxygen
+- North Greenland Ice Core Project Members. 2007. “50 year means of oxygen
 isotope data from ice core NGRIP.” Data set. PANGAEA.
 doi:[10.1594/PANGAEA.586886](https://doi.org/10.1594/PANGAEA.586886).
-
-</div>
-
-</div>
