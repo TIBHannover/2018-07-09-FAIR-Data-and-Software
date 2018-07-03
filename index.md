@@ -331,7 +331,7 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
       <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#macos">https://www.anaconda.com/download/#macos</a> with your web browser.</li>
-        <li>Download the Python 3 installer for OS X.</li>
+        <li>Download the Python 3 installer for macOS.</li>
         <li>Install Python 3 using all of the defaults for installation.</li>
       </ol>
     </div>
