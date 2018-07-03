@@ -263,64 +263,26 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
     exclamation mark), then hitting Return to return to the shell.
   </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows installer
-	</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="editor-macosx">macOS</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="editor-linux">Linux</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="https://kate-editor.org/">Kate</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-    </div>
-  </div>
+  
+  <p>
+    If you do not already use a text editor like 
+    <a href="https://notepad-plus-plus.org/">Notepad++</a> (Windows),
+    <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a> or
+    <a href="https://kate-editor.org/">Kate</a> (Linux),
+    <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or 
+    <a href="https://www.barebones.com/products/bbedit/">BBEdit</a> (macOS),
+    <a href="https://www.sublimetext.com/">Sublime Text</a>,
+    or are already comfortable with any other, please install
+    <a href="https://atom.io/">Atom</a>.
+  </p>
+  
+  <p>
+    In any case, please configure Git to de it, by applying the
+    <a href="https://swcarpentry.github.io/git-novice/02-setup/">
+    specific <code>core.editor</code> configuration command
+    from the Software Carpentry's "Git Novice" lesson</a>.
+  </p>
+  
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
