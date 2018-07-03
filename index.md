@@ -265,19 +265,19 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
   </p>
   
   <p>
-    If you do not already use a text editor like 
+    <strong>If you do not already use a text editor</strong> like 
     <a href="https://notepad-plus-plus.org/">Notepad++</a> (Windows),
     <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a> or
     <a href="https://kate-editor.org/">Kate</a> (Linux),
     <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or 
     <a href="https://www.barebones.com/products/bbedit/">BBEdit</a> (macOS),
     <a href="https://www.sublimetext.com/">Sublime Text</a>,
-    or are already comfortable with any other, please install
-    <a href="https://atom.io/">Atom</a>.
+    or are already comfortable with any other, <strong>please install
+    <a href="https://atom.io/">Atom</a></strong>.
   </p>
   
   <p>
-    In any case, please configure Git to use it, by applying the
+    In any case, please configure Git to use one of them, by applying the
     <a href="https://swcarpentry.github.io/git-novice/02-setup/">
     specific <code>core.editor</code> configuration command
     from the Software Carpentry's "Git Novice" lesson</a>.
