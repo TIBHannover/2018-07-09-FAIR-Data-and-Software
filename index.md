@@ -277,7 +277,7 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
   </p>
   
   <p>
-    In any case, please configure Git to de it, by applying the
+    In any case, please configure Git to use it, by applying the
     <a href="https://swcarpentry.github.io/git-novice/02-setup/">
     specific <code>core.editor</code> configuration command
     from the Software Carpentry's "Git Novice" lesson</a>.
