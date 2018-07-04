@@ -72,7 +72,7 @@ At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water
 We try to make this workshop as accessible to everybody as
 possible. If we can help you in any way, please
 [get in touch](#contact) and we will attempt to provide.
-We will prepare the venue to be **wheelchair-accessible** upon request.
+We will prepare the venue to be **wheelchair-accessible upon request**.
 
 
 ### Recordings
