@@ -77,9 +77,8 @@ We will prepare the venue to be **wheelchair-accessible upon request**.
 
 ### Recordings
 
-We will record some or all of the lectures during this workshop and publish
-them on the [TIB AV-Portal](https://av.tib.eu/). Discussion
-sessions will not be recorded.
+Lectures will be recorded and published on the [TIB AV-Portal](https://av.tib.eu/).
+Discussion sessions will not be recorded.
 
 
 ### Contact
