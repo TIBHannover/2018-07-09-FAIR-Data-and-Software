@@ -133,9 +133,9 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
 ## Setup checklist
 
 - [ ] [Git installed](#git)
-- [ ] [Anaconda-Python installed](#python), or another Python CLI/IDE
-- [ ] [RStudio installed](#r), or another R CLI/IDE
-- [ ] in R(Studio), `install.packages(c("ggplot2", "knitr", "pangaear", "roxygen2", "testthat", "usethis"))` worked
+- [ ] [text editor installed](#editor)
+- [ ] [Anaconda installed](#python), Anadonda Navigator starts and  "Jupyter notebook" launches
+- [ ] [RStudio installed](#r), start and `install.packages(c("ggplot2", "knitr", "pangaear", "roxygen2", "testthat", "usethis"))` worked
 
 ### Setup help
 
