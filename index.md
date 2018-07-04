@@ -142,6 +142,8 @@ wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and
 We will offer a virtual set-up help on the Thursday and Friday before the workshop
 (5. & 6. of July) between 13 and 14 o'clock CEST in the afternoons ([convert to your time 
 zone](https://www.timeanddate.com/worldclock/converter.html?iso=20180705T110000&p1=309)).
+We'll be in the web-conference channel [meet.jit.si/FAIRDataSoftwareInstallHelp](https://meet.jit.si/FAIRDataSoftwareInstallHelp)
+which should load in most modern browsers.
 In order to ease debugging, please follow the [setup](#setup-details) instructions.
 
 ### Setup details
