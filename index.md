@@ -85,9 +85,6 @@ Discussion sessions will not be recorded.
 
 If you have any questions, please don't hesitate to email us: [{{page.email}}](mailto:{{page.email}}).
 
-
-### Registration Requests: [events.tib.eu/fair-data-software](https://events.tib.eu/fair-data-software/registration-request/)
-
 ---
 
 <h2 id="schedule">Preliminary Schedule</h2>
