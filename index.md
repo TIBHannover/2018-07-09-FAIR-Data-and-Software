@@ -87,18 +87,13 @@ If you have any questions, please don't hesitate to email us: [{{page.email}}](m
 
 ---
 
-<h2 id="schedule">Preliminary Schedule</h2>
+<h2 id="schedule">Schedule</h2>
 
-This schedule may be adjusted to participant wishes after registration.
-Also, the topics will be hyperlinked to the lesson material for documentation 
-purposes. You don't _have to_ work through the material before the workshop.
-
-We will focus on one topic / principle per day, introducing its reasoning,
+We will approximately focus on one topic / principle per day, introducing its reasoning,
 benefits, and (differing and/or shared) implications for *proper research
 data/software management/development* together with the learners. We'll
 follow-up the theory-leaning introductions in the mornings with discussions and
-live-coding
-sessions, using (Software & Data) Carpentry materials to illustrate and
+live-coding sessions, using some (Software & Data) Carpentry materials to illustrate and
 practice a principle's implementation in the
 [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics)
 disciplines ("[MINT-Fächer](https://de.wikipedia.org/wiki/MINT-F%C3%A4cher)").
@@ -106,6 +101,8 @@ Regardless of discipline, learners are encouraged to **bring** questions about
 their **own data and source code**. We will be happy to answer your questions 
 about these during the week.
 
+After the workshop, the session titles here will be hyperlinked to the lesson material for documentation 
+purposes.
 
 {% include schedule.html %}
 
