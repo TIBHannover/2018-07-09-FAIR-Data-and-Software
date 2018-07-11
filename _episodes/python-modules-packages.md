@@ -227,7 +227,7 @@ pip install .
 
 and access it from wherever we want.
 
-## Creating a disctribution
+## Creating a distribution
 
 ```
 python setup.py sdist
