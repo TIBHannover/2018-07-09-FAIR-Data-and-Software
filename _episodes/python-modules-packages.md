@@ -1,3 +1,17 @@
+---
+source: md
+title: "Python Modules and Packages"
+output: markdown_document
+teaching: 
+exercises: 
+questions:
+- "How to make Python code more reusable?"
+objectives:
+- "Be able to create Python modules"
+- "Be able to create Python package"
+- "Know how to make installable Python package"
+---
+
 # Modules
 
 Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a module; definitions from a module can be imported into other modules or into the main module (the collection of variables that you have access to in a script executed at the top level and in calculator mode).
