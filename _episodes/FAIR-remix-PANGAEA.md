@@ -66,8 +66,8 @@ or `.Rmd`).
 > > related to the data repository. Search
 > > [CRAN.R-project.org/web/packages/available_packages_by_name.html
 > > ](https://cran.r-project.org/web/packages/available_packages_by_name.html)
-> >  or [https://ropensci.org/packages/](ROpenSci.org/packages) for
-> > "PANGAEA" [@pangaear].
+> > or [ROpenSci.org/packages](https://ropensci.org/packages/) for
+> > “PANGAEA” (Chamberlain et al. 2018).
 > {: .solution}
 {: .challenge}
 
@@ -78,7 +78,7 @@ or `.Rmd`).
 >
 > > ## Solution:
 > >
-> > [ROpenSci.github.io/pangaear/reference](https://ropensci.github.io/pangaear/reference/index.html)
+> > [ROpenSci.GitHub.io/pangaear/reference](https://ropensci.github.io/pangaear/reference/index.html)
 > > gives an overview of its functions. `pg_data()` sounds like what we need.
 > {: .solution}
 {: .challenge}
