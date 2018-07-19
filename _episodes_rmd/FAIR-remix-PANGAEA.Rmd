@@ -127,8 +127,8 @@ We can now plot both datasets' `d18O H2O` values against the same `Age` axis. Be
 library(ggplot2)
 ggplot(data = NGRIP,
        mapping = aes(x = `Age [ka BP]`, y = `d18O H2O [per mil SMOW]`)) +
-  geom_point(color = "dark green") + # inherits data & mapping from above
-  geom_point(data = DomeC # overwrites above data, but inherits x & y
+  geom_point(color = "dark green", alpha = 0.1) + # inherits data & mapping from above
+  geom_point(data = DomeC, alpha = 0.1 # overwrites above data, but inherits x & y
              ) +
   scale_x_reverse() # because Age means the past
 ```
