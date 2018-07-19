@@ -12,21 +12,18 @@ humantime: "9:00-17:00"    # human-readable times for the workshop (e.g., "9:00 
 startdate: 2018-07-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-07-13        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Katrin Leinweber", "Angelina Kraft", "Konrad Förstner", "Martin Hammitzsch", "Luke Johnston", "Mateusz Kuzak"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Chris Erdmann", "You?"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Chris Erdmann"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries@tib.eu"]    # boxed, comma-separated list
 collaborative_notes: https://hackmd.io/ERXxduPVTPSc3LvSjL2nfw    # https://github.com/swcarpentry/workshop-template/issues/418
 ---
 
 ### General Information
 
-**This workshop aims to train junior scientists in implementing the FAIR principles for research data & software management & development.** We want to help you identify similarities and differences between these two scientific objects and apply respectively appropriate good practices in preparing, publishing and archiving your work.
-We will focus on one topic / principle per day, introducing its reasoning, benefits, and (differing and/or shared) implications for **research data/software management/development** together with the learners. We'll follow-up the theory-leaning introductions in the mornings with discussions and
-live-coding sessions, using (Software & Data) Carpentry materials to illustrate and practice a principle's implementation in the [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics) disciplines ("[MINT-Fächer](https://de.wikipedia.org/wiki/MINT-F%C3%A4cher)").
-Regardless of discipline, learners are encouraged to bring questions about their own data and source code, we can answer those during the week.
+**This workshop aimed to train junior scientists in implementing the FAIR principles for research data & software management & development.** We want to help you identify similarities and differences between these two scientific objects and apply respectively appropriate good practices in preparing, publishing and archiving your work.
 
 <p align="center">
 <em>
-  It is a new, experimental workshop format that contextualises the highly practical lesson material from the <a href="{{site.swc_site}}">Software</a> and <a href="{{site.dc_site}}">Data</a> <a href="https://carpentries.org/">Carpentries</a> with the <a href="https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/">FAIR principles</a>
+  It was a new, experimental workshop format that contextualises the highly practical lesson material from the <a href="{{site.swc_site}}">Software</a> and <a href="{{site.dc_site}}">Data</a> <a href="https://carpentries.org/">Carpentries</a> with the <a href="https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/">FAIR principles</a>
 </em>
 </p>
 
@@ -52,65 +49,44 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 ### Costs
 
-**Participation is free of charge**. However, participants need to organise and pay for travel and [accommodation](#when--where) themselves. This workshop is part of an ideas competition supported by the [Jülich Research Centre](http://www.fz-juelich.de/portal/EN/Home/), and part of a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
-
-
-### Food
-
-At the workshop, snacks and drinks (fruits, biscuits, tea, coffee, mineral water), as well as both a vegan and a non-vegan lunch on each of the five days will be provided (free of charge). Participants will need to obtain breakfasts and dinners outside of the TIB. Many cuisine options from bakeries to restaurants are located within walking distance.
+**Participation was free of charge**. However, participants needed to organise and pay for travel and [accommodation](#when--where) themselves. This workshop was part of an ideas competition supported by the [Jülich Research Centre](http://www.fz-juelich.de/portal/EN/Home/), and part of a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
 
 
 ### Requirements
 
-**Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.** They should have a few specific software packages installed (listed [below](#setup)). They are also required to abide by the Carpentries' [Code of Conduct]({{ site.swc_site }}/conduct.html).
-
-**Please note: This workshop focuses on the application** of the FAIR Principles on scientific data and software. Because it covers a variety of examples, it does require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the (non-experimental) [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their [material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
+**Please note: This workshop focussed on the application** of the FAIR Principles on scientific data and software. Because it covered a variety of examples, it did require a basic knowledge of the tools listed in [the schedule](#schedule). If you are interested in learning these basics, please consider applying for one of the (non-experimental) [Software](https://software-carpentry.org/workshops/) and [Data](http://www.datacarpentry.org/workshops-upcoming/) Carpentry workshops, or [work through](https://software-carpentry.org/lessons/) their [material](http://www.datacarpentry.org/lessons/) in a self-paced manner.
 
 
-### Accessibility
+### Recordings & Workshop Material
 
-We try to make this workshop as accessible to everybody as
-possible. If we can help you in any way, please
-[get in touch](#contact) and we will attempt to provide.
-We will prepare the venue to be **wheelchair-accessible upon request**.
-
-
-### Recordings
-
-Lectures will be recorded and published on the [TIB AV-Portal](https://av.tib.eu/).
-Discussion sessions will not be recorded.
-
+Lectures were recorded and will be published on the [TIB AV-Portal](https://av.tib.eu/).
+Slides are already available at the [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY).
+Miscellaneous resources can also be found hyperlinked in the schedule.
 
 ### Contact
 
-If you have any questions, please don't hesitate to email us: [{{page.email}}](mailto:{{page.email}}).
+If you have any questions, please don't hesitate to [open an issue](https://github.com/TIBHannover/2018-07-09-FAIR-Data-and-Software/issues/).
 
 ---
 
 <h2 id="schedule">Schedule</h2>
 
-We will approximately focus on one topic / principle per day, introducing its reasoning,
+We approximately focussed on one topic / principle per day, introducing its reasoning,
 benefits, and (differing and/or shared) implications for *proper research
-data/software management/development* together with the learners. We'll
-follow-up the theory-leaning introductions in the mornings with discussions and
+data/software management/development* together with the learners. We
+followed-up the theory-leaning introductions in the mornings with discussions and
 live-coding sessions, using some (Software & Data) Carpentry materials to illustrate and
 practice a principle's implementation in the
 [STEM](https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics)
 disciplines ("[MINT-Fächer](https://de.wikipedia.org/wiki/MINT-F%C3%A4cher)").
-Regardless of discipline, learners are encouraged to **bring** questions about
-their **own data and source code**. We will be happy to answer your questions 
-about these during the week.
-
-After the workshop, the session titles here will be hyperlinked to the lesson material for documentation 
-purposes.
+Regardless of discipline, learners were encouraged to **bring** questions about
+their **own data and source code**, which we tried to answer during the week.
 
 {% include schedule.html %}
 
 
 ### Collaborative Notes
 
-We will use this <a href="{{page.collaborative_notes}}">collaborative
-document</a> for chatting, taking notes, and sharing URLs and bits of code.
 
 ---
 
@@ -434,5 +410,6 @@ In order to ease debugging, please follow the [setup](#setup-details) instructio
   </p>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
+We used a <a href="{{page.collaborative_notes}}">HackMD.io pad</a> to share URLs, bits of code, and to take notes.
 
 [![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
