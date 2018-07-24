@@ -60,7 +60,7 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 ### Recordings & Workshop Material
 
 Lectures were recorded and will be published on the [TIB AV-Portal](https://av.tib.eu/).
-Slides are already available at the [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY).
+Slides are already available through [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY).
 Miscellaneous resources can also be found hyperlinked in the schedule.
 
 ### Contact
