@@ -62,6 +62,8 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 Lectures were recorded and will be published on the [TIB AV-Portal](https://av.tib.eu/).
 Slides are already available through [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY).
 Miscellaneous resources can also be found hyperlinked in the schedule.
+Under [GitHub.com/TIBHannover, workshop-related repositories carry the topic `tibfds`](https://github.com/TIBHannover?q=tibfds).
+On [Twitter, we used the hashtag `#TIBFDS`](https://twitter.com/search?q=%23TIBFDS).
 
 ### Contact
 
