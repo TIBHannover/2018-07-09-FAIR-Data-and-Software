@@ -92,3 +92,10 @@ their **own data and source code**, which we tried to answer during the week.
 We used a <a href="{{page.collaborative_notes}}">HackMD.io pad</a> to share URLs, bits of code, and to take notes.
 
 [![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
+
+# Follow-up Events
+
+Starting on 1. August, there will be a study group meeting every Wednesday, 16 to 18 o'clock in the
+[Grunwald-Haus, ground floor, right besides the entrance](https://www.openstreetmap.org/way/27870998)
+(you may need to knock on the window). We'll be learning from each other and teaching ourselves further
+within the context of the above topics. Anyone is welcome: be they students, personell or scientists.
