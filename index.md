@@ -91,9 +91,10 @@ their **own data and source code**, which we tried to answer during the week.
 
 We used a <a href="{{page.collaborative_notes}}">HackMD.io pad</a> to share URLs, bits of code, and to take notes.
 
-[![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
+## Follow-up Events
 
-# Follow-up Events: [TIBHannover.GitHub.io/FAIR-studyGroup](https://tibhannover.github.io/FAIR-studyGroup/)
-
+See [TIBHannover.GitHub.io/FAIR-studyGroup](https://tibhannover.github.io/FAIR-studyGroup/).
 We'll be learning from each other and teaching ourselves further
-within the context of the above topics. Anyone is welcome: be they students, personell or scientists.
+within the context of the above topics. Anyone is welcome: be they student, personnel or scientist.
+
+[![](fig/footer_logos.png)](https://events.tib.eu/fair-data-software/)
