@@ -61,7 +61,8 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 Lecture recordings are at [av.TIB.eu/series/530](https://av.tib.eu/series/530/)
 and are also hyperlinked in the schedule, along with other miscellaneous resources.
-Slides are available through [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY).
+Slides are available through [GitHub](https://github.com/TIBHannover/2018-07-09-FAIR-Data-and-Software/tree/gh-pages/slides) and citable through [Zenodo.org/record/]().
+
 Under [GitHub.com/TIBHannover, workshop-related repositories carry the topic `tibfds`](https://github.com/TIBHannover?q=tibfds).
 On [Twitter, we used the hashtag `#TIBFDS`](https://twitter.com/search?q=%23TIBFDS).
 
