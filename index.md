@@ -38,8 +38,8 @@ that will be presented at the workshop.**
 
 ### When & Where?
 
-Please see [events.tib.eu/fair-data-software
-](https://events.tib.eu/fair-data-software/)
+Please see [events.TIB.eu/fair-data-software/2018
+](https://events.tib.eu/fair-data-software/2018/)
 for all the details, including public transport directions and
 [accommodation suggestions](https://events.tib.eu/fair-data-software/accommodation/). You can also find us on [OpenStreetMap
 ](https://www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16)
