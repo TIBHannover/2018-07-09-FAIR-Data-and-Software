@@ -55,7 +55,8 @@ Please see [events.TIB.eu/fair-data-software/2018
 
 Lecture recordings are at [av.TIB.eu/series/530](https://av.tib.eu/series/530/)
 and are also hyperlinked in the schedule, along with other miscellaneous resources.
-Slides are available through [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY).
+Slides are available through [TIB's NextCloud](https://tib.eu/cloud/s/tXSt3j7Bg3ySdXY)
+and [editable on Google Drive](https://drive.google.com/drive/folders/1JO-0SjKw52ICbNSHZuqdXjdIZIrh3Alp).
 Under [GitHub.com/TIBHannover, workshop-related repositories carry the topic `tibfds`](https://github.com/TIBHannover?q=tibfds).
 On [Twitter, we used the hashtag `#TIBFDS`](https://twitter.com/search?q=%23TIBFDS).
 
