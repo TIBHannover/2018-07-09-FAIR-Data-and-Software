@@ -230,7 +230,7 @@ Gavin Simpson. 2018. *Pangaear: Client for the ’Pangaea’ Database*. [CRAN.R-
 
 - Epstein, S, and T Mayeda. 1953. “Variation of O18 Content of Waters from
 Natural Sources.” *Geochimica et Cosmochimica Acta* 4 (5): 213–24.
-doi:[10.1016/0016-7037(53)90051-9](https://doi.org/https://doi.org/10.1016/0016-7037\(53\)90051-9).
+doi:[10.1016/0016-7037(53)90051-9](https://doi.org/10.1016/0016-7037(53)90051-9).
 
 - Lorius, C, Liliane Merlivat, Jean Jouzel, and M Pourchet. 1979. “Isotope
 climatic record from ice core Dome C.” Data set. PANGAEA.
