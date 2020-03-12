@@ -23,7 +23,7 @@ collaborative_notes: https://hackmd.io/ERXxduPVTPSc3LvSjL2nfw    # https://githu
 
 <p align="center">
 <em>
-  It was a new, experimental workshop format that contextualises the highly practical lesson material from the <a href="{{site.swc_site}}">Software</a> and <a href="{{site.dc_site}}">Data</a> <a href="https://carpentries.org/">Carpentries</a> with the <a href="https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/">FAIR principles</a>
+  It was a new, experimental workshop format that contextualises the highly practical lesson material from the <a href="{{site.swc_site}}">Software</a> and <a href="{{site.dc_site}}">Data</a> <a href="https://carpentries.org/">Carpentries</a> with the <a href="https://blogs.tib.eu/wp/tib/2017/09/12/the-fair-data-principles-for-research-data/">FAIR principles</a>.
 </em>
 </p>
 
@@ -32,24 +32,18 @@ collaborative_notes: https://hackmd.io/ERXxduPVTPSc3LvSjL2nfw    # https://githu
 
 Junior scientists who wish to excel at
 implementing the FAIR principles for research data and scientific
-software. **You need to have some previous knowledge of the tools
-that will be presented at the workshop.**
+software.
 
 
 ### When & Where?
 
-Please see [events.tib.eu/fair-data-software
-](https://events.tib.eu/fair-data-software/)
-for all the details, including public transport directions and
-[accommodation suggestions](https://events.tib.eu/fair-data-software/accommodation/). You can also find us on [OpenStreetMap
-](https://www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16)
-and [add the event to your Google
-Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR Data and Software&dates={{ page.startdate | replace: "-", "" }}/{{ page.enddate | replace: "-", "" | plus: 0}}&trp=false&sprop&sprop=name:&sf=true&output=xml&location={{ page.address }}&details="Carpentries-based workshop at the {{ page.venue }}").
+Please see [events.TIB.eu/fair-data-software/2018
+](https://events.tib.eu/fair-data-software/2018/).
 
 
 ### Costs
 
-**Participation was free of charge**. However, participants needed to organise and pay for travel and [accommodation](#when--where) themselves. This workshop was part of an ideas competition supported by the [Jülich Research Centre](http://www.fz-juelich.de/portal/EN/Home/), and part of a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
+**Participation was free of charge**. However, participants needed to organise and pay for travel and accommodation themselves. This workshop was part of an ideas competition supported by the [Jülich Research Centre](http://www.fz-juelich.de/portal/EN/Home/), and part of a [grant by the German Federal Ministry of Education and Research (BMBF)](https://www.bildung-forschung.digital/de/ideenwettbewerb-zum-digitalen-wandel-in-der-wissenschaft-2007.html).
 
 
 ### Requirements
@@ -61,8 +55,8 @@ Calendar](https://calendar.google.com/calendar/render?action=TEMPLATE&text=FAIR 
 
 Lecture recordings are at [av.TIB.eu/series/530](https://av.tib.eu/series/530/)
 and are also hyperlinked in the schedule, along with other miscellaneous resources.
-Slides are available through [GitHub](https://github.com/TIBHannover/2018-07-09-FAIR-Data-and-Software/tree/gh-pages/slides) and citable through [Zenodo.org/record/]().
-
+Slides are available and citable as [Zenodo.org/record/3707745](https://doi.org/10.5281/zenodo.3707744)
+and [editable on Google Drive](https://drive.google.com/drive/folders/1JO-0SjKw52ICbNSHZuqdXjdIZIrh3Alp).
 Under [GitHub.com/TIBHannover, workshop-related repositories carry the topic `tibfds`](https://github.com/TIBHannover?q=tibfds).
 On [Twitter, we used the hashtag `#TIBFDS`](https://twitter.com/search?q=%23TIBFDS).
 
