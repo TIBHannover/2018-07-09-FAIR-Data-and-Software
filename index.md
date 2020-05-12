@@ -60,7 +60,7 @@ and [editable on Google Drive](https://drive.google.com/drive/folders/1JO-0SjKw5
 Under [GitHub.com/TIBHannover, workshop-related repositories carry the topic `tibfds`](https://github.com/TIBHannover?q=tibfds).
 On [Twitter, we used the hashtag `#TIBFDS`](https://twitter.com/search?q=%23TIBFDS).
 
-## How to cite: ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3707744.svg)](https://zenodo.org/record/3707744)
+## How to cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3707744.svg)](https://zenodo.org/record/3707744)
 
 As [suggested in Zenodo's `Cite as` box](https://zenodo.org/record/3707744#invenio-csl), please. Thank you!
 
